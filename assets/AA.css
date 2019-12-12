@@ -19,6 +19,7 @@ background-color #A7D2CB;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
+  z-index:2;
 }
 
 /* 導航連結 */
@@ -119,8 +120,10 @@ form.example::after {
 .footer{width:100%;
   height:60px;
 background:gray;
-text-align:center;}
-span.footer{padding-left:20px;}
+text-align:center;
+}
+span.footer{padding-left:20px;
+            }
 
 /* 所有商品按鍵*/
 
