@@ -13,30 +13,33 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+
+
 </head>
 <body>
 	<!--頂部導航-->
-	<div id="navbar">
-		<div id="mySidenav" class="sidenav" style="floatleft;">
-	    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-	    <a href="shop.html">首頁</a>
-	    <a href="#">熱門商品</a>
-	    <a href="#"class="accordion">商品分類</a>
-          <div class="panel">
-          	<a href="product.html">所有商品</a>
-            <a href="#">日本</a>
-            <a href="#">韓國</a>
-            <a href="#">東南亞</a>
-          </div>
-	    <a href="#">關於我們</a>
-	    <a href="#">會員專區</a>
-	    <a href="#">購物車</a>
-	    </div>
+	<div class="navbar">
+					<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="#about">首頁</a>
+			  <a href="#services">熱門商品</a>
+			  <button class="dropdown-btn">商品分類
+			    <i class="fa fa-caret-down"></i>
+			  </button>
+			  <div class="dropdown-container">
+			    <a href="#">Link 1</a>
+			    <a href="#">Link 2</a>
+			    <a href="#">Link 3</a>
+			  </div>
+			  <a href="#clients">關於我們</a>
+			  <a href="#contact">會員專區</a>
+			  <a href="#contact">購物車</a>
+			</div>
+
 		<div style="font-size:25px;padding: 15px;cursor:pointer; float:left;" onclick="openNav()">&#9776;商品列表</div>
 
-		<div><a href="#home">購物車</a></div>
-		<div><a href="#news">會員</a></div>
+		<div><a href="#home" style="padding:20px;">購物車</a></div>
+		<div><a href="#news"style="padding:20px;">會員</a></div>
 
 		<form class="example" action="/action_page.php" style="float:left;max-width:190px; margin-left:100px; padding: 18px;">
 			<input type="text" placeholder="Search.." name="search2">
@@ -52,7 +55,7 @@
         <img src="images/pic1.jpg" alt="日清泡麵" style="width:60%">
         <h5>日清泡麵</h5>
         <p class="price">NT.120</p>
-        <a href="information.html"><p><button>了解更多</button></p></a>
+        <button><a href="information.html"><p>了解更多</button></p></a>
       </div>
 
       <div class="card01">
@@ -144,7 +147,9 @@
 			<span>Mail:noodleisgood@gmail.com<span>
 		    © 2019  All Rigts Reserved.
 		</div>
-  <script src="AA.js"></script>
+  
 </div>
+<script src="AA.js"></script>
+
 </body>
 </html>
