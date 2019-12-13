@@ -5,7 +5,10 @@
   font-family: 微軟正黑體;
   font-size: 25px;
   top:120px;
+  color:black;
 }
+
+ 
 .card01 {
    
   
@@ -165,3 +168,5 @@ position: relative;
 left:330px;
 
 }
+
+
