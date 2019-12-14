@@ -120,10 +120,10 @@ input.qtyminus {
 /* Style the tab */
 .tab {
   overflow: hidden;
-  border: 1px solid #A7D2CB;
+  border: 2px solid #A7D2CB;
   background-color: #A7D2CB;
   font-family: 微軟正黑體;
-  width:896px;
+  width:902px;
  
 }
 
@@ -134,31 +134,36 @@ input.qtyminus {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 117px;
+  padding: 14px 109px;
   transition: 0.3s;
   color:white;
   font-weight:bold;
+  font-size:20px;
 }
 
 /* Change background color of buttons on hover */
-.tab button:hover {
-  background-color:white;
-  color: #A7D2CB;
-font-weight:bold;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
+.tab button:hover 
+{
   background-color:white;
   color: #A7D2CB;
   font-weight:bold;
+  border: 1px solid #A7D2CB;
+}
+
+/* Create an active/current tablink class */
+.tab button.active 
+{
+  background-color:white;
+  color: #A7D2CB;
+  font-weight:bold;
+  border: 1px solid #A7D2CB;
 }
 
 /* Style the tab content */
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 1px solid #A7D2CB;
+  border: 2px solid #A7D2CB;
   border-top: none;
   font-family: 微軟正黑體;
   width:896px;
