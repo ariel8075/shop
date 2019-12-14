@@ -71,29 +71,12 @@
 {
  
   position: relative;
-  top:120px;
+  top:100px;
   height:400px;
   width: 100%;
   
 }
-.box3
-{
- 
-  position: relative;
-  top:70px;
-  height:400px;
-  width: 100%; 
-  
-}
-.box4
-{
- 
-  position: relative;
-  top:20px;
-  height:400px;
-  width: 100%;
-  
-}
+
 .product01
 {
 float:left;
@@ -124,20 +107,5 @@ top:50px;
 float:left;
 position: relative;
 left:60px;
-
+top:20px;
 }
-.product05
-{
-float:left;
-position: relative;
-left:240px;
-
-}
-.product06
-{
-float:left;
-position: relative;
-left:420px;
-
-}
-
