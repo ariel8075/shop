@@ -1,0 +1,227 @@
+.contant_title
+{
+  position:relative;
+  
+  font-family: 微軟正黑體;
+  font-size: 25px;
+  font-weight:bold;
+  color:black;
+}
+ hr
+	{
+      height:5px;
+      
+      border:none;
+	}	
+.contant
+{
+  position:relative;
+  font-family: 微軟正黑體;
+  font-size: 20px;
+  line-height:50px;
+  color:black;
+}
+.box1
+{
+ 
+  position: relative;
+   top:150px;
+  height:400px;
+  width: 500px;  
+  left:200px;
+}
+.box2
+{
+ 
+  position: relative;
+  top:150px; 
+  height:400px;
+  width: 300px;  
+  left:90px;
+}
+.box3
+{
+ 
+  position: relative;
+  top:30px; 
+  height:400px;
+  width: 300px;  
+  
+}
+.product
+{
+float:left;
+position: relative;
+left:65px;
+}
+.img1
+{
+	border:1px #DCDCDC ;
+	box-shadow:1px 1px 2px 3px #DCDCDC;
+	width:400px;
+}
+.qty {
+  width: 40px;
+  height: 35px;
+  text-align: center;
+  border: 0;
+  border-top: 2px solid #A7D2CB;
+  border-bottom: 2px solid #A7D2CB;
+}
+
+
+
+input.qtyplus {
+  width: 25px;
+  height: 35px;
+  border: 2px solid #A7D2CB;
+  background: white;
+  color:black;
+}
+.qtyplus:hover
+{
+  background: #A7D2CB;
+  color:white;
+}
+
+input.qtyminus {
+  width: 25px;
+  height: 35px;
+  border: 2px solid #A7D2CB;
+  background: white;
+  color:black;
+}
+.qtyminus:hover
+{
+  background: #A7D2CB;
+  color:white;
+}
+.bt button {
+  border: none;
+  outline: 0;
+  padding: 8px;
+  border-radius: 10px;
+  color: white;
+  background-color: #A7D2CB;
+  text-align: center;
+  cursor: pointer;
+  width: 60%;
+  font-size: 18px;
+  font-family: 微軟正黑體;
+  font-weight:600;
+  
+}
+.bt button:hover {
+ color: #A7D2CB;
+  background-color: white;
+  border:2px solid;
+  border-radius: 10px;
+}
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #A7D2CB;
+  background-color: #A7D2CB;
+  font-family: 微軟正黑體;
+  width:896px;
+ 
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 117px;
+  transition: 0.3s;
+  color:white;
+  font-weight:bold;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color:white;
+  color: #A7D2CB;
+font-weight:bold;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:white;
+  color: #A7D2CB;
+  font-weight:bold;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #A7D2CB;
+  border-top: none;
+  font-family: 微軟正黑體;
+  width:896px;
+}
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container01 {
+  border: 2px solid #F5FFFA;
+  background-color:#A7D2CB;
+  border-radius: 10px;
+  padding: 16px;
+  margin: 16px 0;
+  font-family: 微軟正黑體;
+  width:850px;
+}
+
+/* Clear floats after containers */
+.container01::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container01 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container01 span {
+  font-size: 20px;
+  margin-right: 15px;
+
+}
+
+/* Add media queries for responsiveness. This will center both the text and the image inside the container */
+@media (max-width: 500px) {
+  .container01 {
+    text-align: center;
+  }
+
+  .container01 img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+.checked {
+  color: orange;
+}
+.product02
+{
+position:relative;
+top:200px;
+left:90px;
+}
+.footer{width:100%;
+  height:60px;
+background:gray;
+text-align:center;
+position:relative;
+top:300px;
+}
+span.footer{padding-left:20px;
+            }
