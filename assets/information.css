@@ -109,7 +109,7 @@ input.qtyminus {
   font-size: 18px;
   font-family: 微軟正黑體;
   font-weight:600;
-  
+  border:2px solid;
 }
 .bt button:hover {
  color: #A7D2CB;
@@ -166,7 +166,7 @@ input.qtyminus {
   border: 2px solid #A7D2CB;
   border-top: none;
   font-family: 微軟正黑體;
-  width:896px;
+  width:902px;
 }
 /* Style the container with a rounded border, grey background and some padding and margin */
 .container01 {
