@@ -215,6 +215,12 @@ input.qtyminus {
     display: block;
   }
 }
+.contant02
+{
+	position:relative;
+	left:40px;
+	font-family: 微軟正黑體;
+}
 .checked {
   color: orange;
 }
