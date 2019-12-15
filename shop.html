@@ -43,7 +43,18 @@
 		<div style="font-size:25px;padding: 15px;cursor:pointer; float:left;" onclick="openNav()">&#9776;</div>
 
 		<div><a href="#home" style="padding:20px;">購物車</a></div>
-		<div><a href="#news"style="padding:20px;">會員</a></div>
+		<button class="userbtn"><i class="fa fa-user-o"></i> 登入</button>
+
+		<div class="userdropdown">
+		    <ul class="userbtn" style="border-left1px solid #A7B3A5;font-size:31px; padding-bottom30px;">
+		      <i class="fa fa-caret-down"></i>
+		    </button>
+		    <div class="userdropdown-content">
+		      <a href="#">登出</a>
+		      <a href="#">註冊</a>
+		      <a href="#">會員專區</a>
+		    </div>
+		</div>
 
 		<form class="example" action="/action_page.php" style="float:left;max-width:190px; margin-left100px; padding: 18px;">
 			<input type="text" placeholder="Search.." name="search2">
@@ -78,7 +89,7 @@
 					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
 					<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
-	                <div style="text-align:center;position: absolute; z-index:15;bottom:0px;left:50%">
+	                <div style="text-align:center;position: absolute; z-index:3;bottom:0px;left:50%">
 				  	<span class="dot" onclick="currentSlide(1)"></span> 
 				  	<span class="dot" onclick="currentSlide(2)"></span> 
 				  	<span class="dot" onclick="currentSlide(3)"></span> 
@@ -88,12 +99,12 @@
 		<div class="container-fluid">
 		<div class="row">
 	        <div class="col-md-12 p-0">
-	        	<div class="mb-4"style="text-align:center;">
+	        	<div class="mb-4"style="text-align:center; font-size:20px;">
 	        		泡麵是簡單、便宜、快速、隨手可得且能夠長期保存的
 	        	</div>
-	        </div>
+	        
 	        	        
-	        	<div style="position:relative; height:200px;margin:0px auto;" >
+	        	<div style="position:relative; height:200px;margin:0px auto; width:680px;" >
 			        	<div style="float:left; width:100px;position:relative;">
 			    			<img src="images/pic1.jpg" style="width:100px;">
 			        	</div>
@@ -103,17 +114,69 @@
 
 			        	</div>
 			    </div>
+			</div>    
 		</div>	
 		</div>
-	<!--人氣商品-->		
-		<div class="container-fluid" style="margin-top300px">
-	
+	<!--熱銷-->	
+	<div class="container mb-4">
 		<div class="row">
-			 <div class="col-md-12 p-0">
-	        	<div style="text-align:center">人氣商品<hr style="width:80%"></div>
-	        </div>
-
+				 <div class="col-md-12 p-0">
+		        	<div style="text-align:center; font-size:40px;">最新商品<hr style="width:80%;height:30px;"></div>
+		        </div>
 		</div>
+		<div class="row" style="marginauto;justify-content:space-between;padding:0px 100px;">
+
+				<div class="card" style="margin-left10%;">
+					
+				    	<img src="images/pic1.jpg" alt="Denim Jeans" class="image">
+				    	
+				    <h1>日清杯麵-海鮮口味</h1>
+				    <p class="price">NT120</p>
+				    <p class="word">清爽的湯頭，Q彈的麵條，讚!</p>
+				    <div class="container02">
+				    	 <div class="middle">
+				    		<div class="text">好評第一<br>10萬網友大好評!</div>
+				    	 </div>
+				    	 <p><button>觸碰查看/點擊前往</button></p>
+				    	
+					</div>
+				   
+				</div>
+				
+				<div class="card" style="margin-left10%;">
+					
+				    	<img src="images/pic1.jpg" alt="Denim Jeans" class="image">
+				    	
+				    <h1>日清杯麵-海鮮口味</h1>
+				    <p class="price">NT120</p>
+				    <p class="word">清爽的湯頭，Q彈的麵條，讚!</p>
+				    <div class="container02">
+				    	 <div class="middle">
+				    		<div class="text">好評第一<br>10萬網友大好評!</div>
+				    	 </div>
+				    	 <p><button>觸碰查看/點擊前往</button></p>
+				    	
+					</div>
+				   
+				</div>
+
+				<div class="card" style="margin-left10%;">
+					
+				    	<img src="images/pic1.jpg" alt="Denim Jeans" class="image">
+				    	
+				    <h1>日清杯麵-海鮮口味</h1>
+				    <p class="price">NT120</p>
+				    <p class="word">清爽的湯頭，Q彈的麵條，讚!</p>
+				    <div class="container02">
+				    	 <div class="middle">
+				    		<div class="text">↓↓↓<br>好評第一<br>10萬網友大好評!</div>
+				    	 </div>
+				    	 <p><button>觸碰查看/點擊前往</button></p>
+				    	
+					</div>
+				   
+				</div>
+		</div>	
 		</div>
 
 	<!--倒數計時-->		
@@ -122,11 +185,11 @@
 	        <div class="col-md-12 p-0">
 	        	       	        
 	        	<div class="ad01"  >
-	        			<div style="text-align:center; font-size:40px;">
+	        			<div style="text-aligncenter; font-size:35px;">
 	        			限 時 特 賣 !
 	        			</div>	
 			        	<div class="ad01pc">
-			    			<img src="images/pic1.jpg" style="width:200px; margin:0px auto">
+			    			<img src="images/pic8.jpg" style="width:200px; margin:0px auto">
 			        	</div>
 			        	<div class="ad01word">
 				        	<div id="demo" style="float:left;;">
