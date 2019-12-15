@@ -279,11 +279,11 @@ margin:auto;
   backface-visibility :hidden;}
 .middle {
     position: absolute;
-   bottom: 160%;
-  height: 500%;
+   bottom: 118%;
+  height: 540%;
   left: 0;
   right: 0;
-  background-color:#A7B3A5;
+  background-color:black;
   overflow: hidden;
   width: 100%;
   top0%;
