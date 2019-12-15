@@ -19,7 +19,7 @@ font-family: 微軟正黑體;
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
 
-  z-index:20;
+  z-index:5;
   
 }
 #navbar a { /* 導航連結 */
@@ -38,6 +38,50 @@ font-family: 微軟正黑體;
   text-decoration: none;
   
 }
+
+                                            /*登入登出*/
+.userbtn {
+  background-color:#A7D2CB;
+  color: white;
+  padding: 20px;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  height:100%;
+   floa left;
+  overflow: hidden;
+}
+
+.userdropdown {
+  position: absolute;
+  display: inline-block;
+}
+
+.userdropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  z-index: 30;
+}
+
+.userdropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  float: none;
+}
+
+.userdropdown-content a:hover {background-color: #ddd}
+
+.userdropdown:hover .userdropdown-content {
+  display: block;
+}
+
+.userbtn:hover, .userdropdown:hover .btn {
+  background-color: #A7B3A5;
+}                                            
 
                                             /*搜索欄*/
 form.example{padding: 15px;}
@@ -167,7 +211,7 @@ left:230px;
 * {box-sizing: border-box}
 /*下2個不確定要嗎*/
 .mySlides {display none}
-img {vertical-align middle;}
+img {vertical-alignmiddle;}
 
 .slideshow-container {
   width:100%;
@@ -244,6 +288,102 @@ img {vertical-align middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
+                                                /*最新商品*/
+.container02 {
+  position: relative;
+  width: 100%;
+}
+
+.card img{width:100%;
+margin:auto;
+
+ opacity: 1;
+  display: block;
+  height: auto;
+  transition: .3s ease;
+  backface-visibility :hidden;}
+.middle {
+    position: absolute;
+   bottom: 118%;
+  height: 540%;
+  left: 0;
+  right: 0;
+  background-color:black;
+  overflow: hidden;
+  width: 100%;
+  top0%;
+ 
+  transition: .5s ease;
+ opacity: 0.9;
+}
+
+.container02:hover .image {
+  opacity: 1;
+}
+
+.container02:hover .middle {
+  bottom: 0;
+  height: 0;
+}
+
+.text {
+  opacity: 1;
+  background-color:black;
+  color: white;
+  font-size: 30px;
+  padding: 35px 20px;
+  height:300px;
+}
+
+/**/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 260px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.price {
+  color: grey;
+  font-size: 18px;
+}
+.card h1{font-size:23px;}
+.word{font-size:13px;}
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color:#A7D2CB;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  font-weight:600;
+}
+.card button:hover {
+  opacity: 0.7;
+}
+
+                                                  
+                                                  /*限時特賣*/
+.ad01{box-shadow: 2px 5px 9px 2px rgba(0, 0, 0, 0.2);
+  position:relative; 
+  height:300px;
+  width:80%;
+  margin:0px auto;
+   background-color:#A7D2CB;
+   ;padding:15px 80px}
+.ad01pc{float:left;
+ width:100px;
+ position:relative;
+ left:10%;
+ top:1%;}
+.ad01word{float:left;
+  left:30%;
+  
+  position:relative;}
+  #demo{font-size:40px;}
 
 
 /*底部*/
