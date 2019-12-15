@@ -292,6 +292,8 @@ img {vertical-alignmiddle;}
 .container02 {
   position: relative;
   width: 100%;
+  height100%;
+  background-color:#A7D2CB;
 }
 
 .card img{width:100%;
@@ -300,12 +302,12 @@ margin:auto;
  opacity: 1;
   display: block;
   height: auto;
-  transition: .3s ease;
+  transition 1s ease;
   backface-visibility :hidden;}
 .middle {
     position: absolute;
-   bottom: 118%;
-  height: 540%;
+   bottom: 104%;
+  height: 552%;
   left: 0;
   right: 0;
   background-color:black;
@@ -313,7 +315,7 @@ margin:auto;
   width: 100%;
   top0%;
  
-  transition: .5s ease;
+  transition: 1.5s ease;
  opacity: 0.9;
 }
 
@@ -331,8 +333,9 @@ margin:auto;
   background-color:black;
   color: white;
   font-size: 30px;
-  padding: 35px 20px;
+  padding: 25px 20px 10px 20px;
   height:300px;
+  line-height:25px;
 }
 
 /**/
@@ -360,6 +363,7 @@ margin:auto;
   width: 100%;
   font-size: 18px;
   font-weight:600;
+  height:100%;
 }
 .card button:hover {
   opacity: 0.7;
