@@ -220,6 +220,7 @@ input.qtyminus {
 	position:relative;
 	left:40px;
 	font-family: 微軟正黑體;
+	line-height:40px;
 }
 .checked {
   color: orange;
