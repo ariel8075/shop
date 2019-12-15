@@ -57,9 +57,9 @@ left:65px;
 .img1
 {
 	border:1px #DCDCDC ;
-	box-shadow:1px 1px 2px 3px #DCDCDC;
+	box-shadow:4px 4px 3px 5px #DCDCDC;
 	width:400px;
-	border-radius:10px;
+	
 }
 .qty {
   width: 40px;
@@ -214,6 +214,13 @@ input.qtyminus {
     float: none;
     display: block;
   }
+}
+.contant02
+{
+	position:relative;
+	left:40px;
+	font-family: 微軟正黑體;
+	line-height:40px;
 }
 .checked {
   color: orange;
