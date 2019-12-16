@@ -200,7 +200,7 @@ form.example::after {
 
 
                                     /*Banner圖片轉換 */
- 
+
 .ipt input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
@@ -251,10 +251,7 @@ font-family: 微軟正黑體;
   position: relative;
 }
 
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
+
 
 .container {
   padding: 16px;
@@ -440,7 +437,7 @@ margin:auto;
   background-color:#6E7376;
   overflow: hidden;
   width: 100%;
-  top0%;
+ 
   transition: 1s ease;
  opacity: 0.99;
 }
