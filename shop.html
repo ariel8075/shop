@@ -49,11 +49,37 @@
 		</div>
 
 		<div class="b">
-			<div><a href="vip.html" style="padding: 10px 20px;colorblack;">
-				 <i class="fa fa-user-circle" style="font-size:24px;colorblack; "></i>&nbsp; 登入</a> 
-			</div>
-        </div>
-        
+			<a href="#" style="padding:10px 20px;">
+			<i class="fa fa-user-circle" style="font-size:24px;" onclick="document.getElementById('id01').style.display='block'"  ><span onclick="document.getElementById('id01').style.display='block'"> 登入</span></i>
+			</a>
+				<div id="id01" class="modal">
+			    	<form class="modal-content animate" style="width: 30%;"action="/action_page.php" method="post">
+			    	<div class="imgcontainer">
+			      		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+			      	<div class="contant02" style="font-size:25px;">登入會員</div>
+			    	</div>
+
+				    <div class="container">
+				        <label for="uname"><b>帳號</b></label>
+				    		<span class="ipt"><input type="text" placeholder="輸入帳號" name="uname" required ></span>
+
+				        <label for="psw"><b>密碼</b></label>
+				        	<span class="ipt"><input type="password" placeholder="輸入密碼" name="psw" required ></span>
+				        
+				        <span class="btn02"><button type="submit">登入</button></span>
+				        <label>
+				        	<span class="ipt"><input type="checkbox" checked="checked" name="remember" > 記住我</span>
+				       	</label>
+				    </div>
+
+				    <div class="container" style="background-color:#f1f1f1">
+				    	<button type="button"  onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">取消</button>
+				    </div>
+					</form>
+				</div>	
+		</div>
+		
+
 		<div class="c">
 			<form class="example" action="/action_page.php" style="float:left;max-width:190px; margin-left100px;padding: 7px 20px;">
 				<input type="text" placeholder="Search.." name="search2">
@@ -212,10 +238,8 @@
  <script>
 // Set the date we're counting down to
 var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
-
 // Update the count down every 1 second
 var x = setInterval(function() {
-
   // Get today's date and time
   var now = new Date().getTime();
     
