@@ -16,7 +16,7 @@ for (i = 0; i < dropdown.length; i++) {
 }
 /*側邊欄*/
 function openNav() {
-  document.getElementById("mySidenav").style.width = "190px";
+  document.getElementById("mySidenav").style.width = "200px";
 }
 
 function closeNav() {
