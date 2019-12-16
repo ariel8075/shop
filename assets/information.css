@@ -25,7 +25,7 @@
 {
  
   position: relative;
-   top:150px;
+   top:120px;
   height:400px;
   width: 500px;  
   left:200px;
@@ -34,7 +34,7 @@
 {
  
   position: relative;
-  top:150px; 
+  top:120px; 
   height:400px;
   width: 300px;  
   left:90px;
@@ -43,7 +43,7 @@
 {
  
   position: relative;
-  top:30px; 
+  top:10px; 
   height:400px;
   width: 300px;  
   
@@ -267,7 +267,7 @@ h5
 background:gray;
 text-align:center;
 position:relative;
-top:400px;
+top:380px;
 }
 span.footer{padding-left:20px;
             }
