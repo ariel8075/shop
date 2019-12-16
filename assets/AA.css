@@ -10,7 +10,7 @@ body {
 
                                                         /* 頂端導航 */
 #navbar {
-  overflow: hidden;
+  overflow hidden;
   background-color: #A7D2CB;
   position: fixed; 
   top: 0; /*navbar at the top of the page */
@@ -22,14 +22,14 @@ body {
   float:left;
   display: block;
   color: white;
-  text-align center;
+  text-aligncenter;
   font-size:20px;
   padding 20px;
   text-decoration: none;
   
 }
 #navbar a:hover {
-  background-color: #ddd;
+  background-color:#ddd;
   color: black;
   text-decoration: none;
 }
@@ -39,23 +39,60 @@ body {
 {   
 float:right;
 position:relative;
-right:310px;
+right:356px;
 font-family: 微軟正黑體;
 }      
 .b
 {   
 float:right;
 position:relative;
-right:70px;
+right:137px;
 font-family: 微軟正黑體;
-
 } 
 .c
 {   
 float:right;
 position:relative;
-left:230px;
+right:0px;
+display :inline-block;
+padding: 6px 5px 0px 5px;
+}
 
+.t-dropbtn{border:none;
+  cursor :pointer;
+background:none;
+color:white;
+padding:13px 13px;}
+.t-dropbtn:hover{
+  background-color:#ddd;
+}
+
+.t-dropdown-content {
+  display :none;
+  position: absolute;
+  background-color:gray;
+  min-width: 70px;
+  overflow:hidden;
+  box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
+ 
+}
+.t-dropdown-content a {
+  color: black;
+  padding: 10px 19px;
+  width:100%;
+  text-decoration: none;
+  display: block;
+
+}
+
+.t-dropdown a:hover {background-color: #ddd;}
+.show {display:block;} 
+
+.d
+{   
+float:right;
+position:relative;
+left:230px;
 }              
                                   
                                   /*搜索欄*/
@@ -163,8 +200,7 @@ form.example::after {
 
 
                                     /*Banner圖片轉換 */
-
-} 
+ 
 .ipt input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
@@ -295,7 +331,7 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
-}               
+}                   
     
  /*Banner圖片轉換 */
 
@@ -494,3 +530,6 @@ text-align:center;
 }
 span.footer{padding-left:20px;
             }
+
+
+
