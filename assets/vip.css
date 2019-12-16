@@ -2,7 +2,7 @@
 {
 	position:relative;
 	left:10px;
-	top:100px;
+	top:70px;
 	font-family:微軟正黑體;
 	font-size:25px;
 }
@@ -10,16 +10,17 @@
 {
 	position:relative;
 	left:250px;
-	top:-20px;
+	top:-50px;
 	font-family:微軟正黑體;
 	font-size:25px;
 
 }
+
 .content02
 {
 	position:relative;
 	left:260px;
-	top:10px;
+	top:-20px;
 	font-family:微軟正黑體;
 	font-size:18px;
 	line-height:50px;
@@ -28,7 +29,7 @@
 {
 	position:relative;
 	left:600px;
-	top:-190px;
+	top:-220px;
 	font-family:微軟正黑體;
 	font-size:18px;
 	line-height:50px;
