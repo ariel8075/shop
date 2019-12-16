@@ -158,7 +158,14 @@ form.example::after {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-  .ipt input[type=text], input[type=password] {
+                                       
+ 
+
+
+                                    /*Banner圖片轉換 */
+
+
+.ipt input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -285,13 +292,7 @@ span.psw {
   .cancelbtn {
      width: 100%;
   }
-}                                                    
- 
-
-
-                                  
-
-
+}               
     
  /*Banner圖片轉換 */
 
@@ -400,7 +401,7 @@ margin:auto;
   background-color:#6E7376;
   overflow: hidden;
   width: 100%;
-  top:0%;
+ 
   transition: 1s ease;
  opacity: 0.99;
 }
