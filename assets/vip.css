@@ -9,18 +9,21 @@
 .title
 {
 	position:relative;
-	left:250px;
-	top:-50px;
+	
 	font-family:微軟正黑體;
 	font-size:25px;
 
 }
-
+.box
+{   position:absolute;
+	float:left;
+	left:250px;
+	top:75px;
+}
 .content02
 {
 	position:relative;
-	left:260px;
-	top:-20px;
+	
 	font-family:微軟正黑體;
 	font-size:18px;
 	line-height:50px;
@@ -28,11 +31,12 @@
 .content03
 {
 	position:relative;
-	left:600px;
-	top:-220px;
+	top:-200px;
+	left:400px;
 	font-family:微軟正黑體;
 	font-size:18px;
 	line-height:50px;
+	width:300px;
 }
 .ipt01 input
 {
