@@ -43,14 +43,15 @@
 
 	<!--頂部導航-->	
 		<div class="a">
-			<div><a href="shoppingcart.html" style="padding: 10px 20px;colorblack;">
+			<div><a href="shoppingcart.html" style="padding: 10px 10px;margin-left:10px;">
 				 <i class="fa fa-shopping-cart" style="font-size:24px;colorblack;"></i>&nbsp; 購物車</a> 
 			</div> 
 		</div>
 
 		<div class="b">
-			<a href="#" style="padding:10px 20px;">
-			<i class="fa fa-user-circle" style="font-size:24px;" onclick="document.getElementById('id01').style.display='block'"  ><span onclick="document.getElementById('id01').style.display='block'"> 登入</span></i>
+			
+			<a href="#" style="padding: 10px 10px;margin-left:10px;">
+			<span onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-user-circle" style="font-size:24px;" onclick="document.getElementById('id01').style.display='block'"><span style="font:20px 微軟正黑體;">&nbsp; 登入</span></i></span>
 			</a>
 				<div id="id01" class="modal">
 			    	<form class="modal-content animate" style="width: 30%;"action="/action_page.php" method="post">
@@ -62,7 +63,7 @@
 				    <div class="container">
 				        <label for="uname"><b>帳號</b></label>
 				    		<span class="ipt"><input type="text" placeholder="輸入帳號" name="uname" required ></span>
-
+                        
 				        <label for="psw"><b>密碼</b></label>
 				        	<span class="ipt"><input type="password" placeholder="輸入密碼" name="psw" required ></span>
 				        
@@ -79,13 +80,25 @@
 				</div>	
 		</div>
 		
-		<div class="c">
-			<form class="example" action="/action_page.php" style="float:left;max-width:190px; margin-left100px;padding: 7px 20px;">
+		<div class="c" >
+				<button onclick="myFunction()" class="t-dropbtn" style="">
+				  	<i class="fa fa-caret-down p-0" style="font-size:13px;"></i> 
+				</button>
+				    <div id="t-myDropdown" class="t-dropdown-content" s>
+					    <a href="#home" style=" font-size:15px;">登出</a>
+					    <a href="#about" style=" font-size:15px;">註冊</a>
+				    </div>
+
+		</div>
+		<div class="d">
+			<form class="example" action="/action_page.php" style="float:left;max-width:190px; margin-left100px;padding: 7px 15px;">
 				<input type="text" placeholder="Search.." name="search2">
 			    <button type="submit"><i class="fa fa-search"></i></button>
 			</form>
 		</div>
+
 		
+
 	</div>
 
 <div class="content">
