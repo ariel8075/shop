@@ -34,7 +34,7 @@ for (var i = 0; i < btns.length; i++) {
 
 			<a href="shop.html">首頁</a>
 
-			<a href="#services">熱門商品</a>
+
 			<button class="dropdown-btn">商品分類
 				<i class="fa fa-caret-down"></i>
 			</button>
@@ -46,7 +46,7 @@ for (var i = 0; i < btns.length; i++) {
 			  </div>
 		    <a href="#clients">關於我們</a>
 			<a href="vip.html">會員專區</a>
-			<a href="#contact">購物車</a>
+			<a href="shoppingcart.html">購物車</a>
 		</div>
 
 		<div style="font-size:25px;padding: 6px 20px;cursor:pointer; float:left;" onclick="openNav()">&#9776;</div>
@@ -95,9 +95,44 @@ for (var i = 0; i < btns.length; i++) {
 				  	<i class="fa fa-caret-down p-0" style="font-size:13px;"></i> 
 				</button>
 				    <div id="t-myDropdown" class="t-dropdown-content" s>
-					    <a href="#home" style=" font-size:15px;">登出</a>
-					    <a href="#about" style=" font-size:15px;">註冊</a>
+					    <a  style=" font-size:15px;">
+			<span onclick="document.getElementById('id02').style.display='block'"><span style="font:15px 微軟正黑體;">&nbsp; 註冊</span></i></span>
+			</a>
+               </div>
+				<div id="id02" class="modal2">
+			    	<form class="modal-content animate" style="width: 30%;"action="/action_page.php" method="post">
+			    	<div class="imgcontainer">
+			      		<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+			      	<div class="contant02" style="font:25px 微軟正黑體;">註冊</div>
+			    	</div>
+
+				    <div class="container" >
+				        <label for="uname"><b class="hig1">帳號</b></label>
+				    		<span class="ipt2" ><input type="text" placeholder="輸入帳號" name="uname" required ></span>
+                        
+				        <label for="psw"><b class="hig2">密碼</b></label>
+				        	<span class="ipt2"><input type="password" placeholder="輸入密碼" name="psw" required ></span>
+
+				        <label for="email"><b class="hig3">EMAIL</b></label>
+				        	<span class="ipt2"><input type="e-mail" placeholder="輸入EMAIL" name="email" required ></span>
+
+				        <label for="phone"><b class="hig4">手機</b></label>
+				        	<span class="ipt2"><input type="text" placeholder="輸入手機" name="phone" required ></span>
+
+				        	<label for="add"><b class="hig5">地址</b></label>
+				        	<span class="ipt2"><input type="text" placeholder="輸入地址" name="add" required ></span>
+
+				        <span class="btn02"><button type="submit">確認</button></span>
+				        <label>
+				        	
 				    </div>
+                        <div class="container" style="background-color:#f1f1f1">
+				    	  <button type="button"  onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">取消</button>
+				       </div>
+				   
+					</form>
+				</div>	
+				    
 
 		</div>
 		<div class="d">
