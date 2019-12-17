@@ -31,7 +31,7 @@
 .content03
 {
 	position:relative;
-	top:-180px;
+	top:-130px;
 	left:400px;
 	font-family:微軟正黑體;
 	font-size:18px;
@@ -47,10 +47,17 @@
 	border:1px gray solid;
 	
 }
-.ipt01 div
+.rad01 input
 {
+	position:relative;
+	height:30px;
+	top:10px;
+	left:20px;
+	border-radius:5px;
+	border:1px gray solid;
 	
 }
+
 .vertical-menu 
 {
   width: 150px; /* Set a width if you like */
