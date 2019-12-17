@@ -61,6 +61,14 @@ window.onclick = function(event) {
   }
 }
 
+var modal = document.getElementById('id02');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 /*top導航的下拉*/
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
