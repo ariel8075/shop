@@ -27,7 +27,7 @@
 .vertical-menu a 
 {
   
-  background-color:white; /* Grey background color */
+  background-color:#FFA07A; /* Grey background color */
   color: black; /* Black text color */
   display: block; /* Make the links appear below each other */
   padding: 9px; /* Add some padding */
@@ -39,7 +39,7 @@
 
 .vertical-menu a:hover 
 {
-  background-color: #eee;
+  background-color:#FFA07A ;
   color: black;
    text-decoration: none; /* Dark grey background on mouse-over */
 }
@@ -170,8 +170,8 @@ top:-50px;
 {
 float:left;
 position: relative;
-left:196px;
-top:36px;
+left:110px;
+top:-50px;
 }
 /*底部*/
 .footer{width:100%;
@@ -179,7 +179,7 @@ top:36px;
 background:gray;
 text-align:center;
 position:relative;
-top:650px;
+top:665px;
 }
 span.footer{padding-left:20px;
             }
