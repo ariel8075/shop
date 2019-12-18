@@ -11,7 +11,7 @@ body {
                                                         /* 頂端導航 */
 #navbar {
   overflow hidden;
-  background-color: #A7D2CB;
+  background-color: #EFD9C1;
   position: fixed; 
   top: 0; /*navbar at the top of the page */
   width: 100%;
@@ -21,7 +21,7 @@ body {
 #navbar a { /* 導航連結 */
   float:left;
   display: block;
-  color: white;
+  color:white;
   
   font-size:20px;
   padding 20px;
@@ -115,7 +115,7 @@ form.example button {  /*搜尋圖示*/
   float: left;
   width: 20%;
   padding 10px;
-  background: #A7D2CB;
+  background: #EFD9C1;
   color: white;
   font-size: 17px;
   border: 1px solid grey;
@@ -459,7 +459,7 @@ img {vertical-alignmiddle;}
   position: relative;
   width: 100%;
   height:100%;
-  background-color:#A7D2CB;
+  background-color:#FFA07A;
 }
 
 .card img{width:70%;
@@ -521,7 +521,7 @@ margin:auto;
   outline: 0;
   padding:14px 12px 0px 12px;
   color: white;
-  background-color:#A7D2CB;
+  background-color:#FFA07A;
   text-align: center;
   cursor: pointer;
   width: 100%;
@@ -569,7 +569,7 @@ font-size:30px;}
 /*底部*/
 .footer{width:100%;
   height:60px;
-background:gray;
+background:#EFD9C1;
 text-align:center;
 }
 span.footer{padding-left:20px;
