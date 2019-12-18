@@ -66,8 +66,8 @@ left:65px;
   height: 35px;
   text-align: center;
   border: 0;
-  border-top: 2px solid #A7D2CB;
-  border-bottom: 2px solid #A7D2CB;
+  border-top: 2px solid #FFDAB9;
+  border-bottom: 2px solid #FFDAB9;
 }
 
 
@@ -75,26 +75,26 @@ left:65px;
 input.qtyplus {
   width: 25px;
   height: 35px;
-  border: 2px solid #A7D2CB;
+  border: 2px solid #FFDAB9;
   background: white;
   color:black;
 }
 .qtyplus:hover
 {
-  background: #A7D2CB;
+  background: #FFDAB9;
   color:white;
 }
 
 input.qtyminus {
   width: 25px;
   height: 35px;
-  border: 2px solid #A7D2CB;
+  border: 2px solid #FFDAB9;
   background: white;
   color:black;
 }
 .qtyminus:hover
 {
-  background: #A7D2CB;
+  background: #FFDAB9;
   color:white;
 }
 .bt button {
@@ -103,7 +103,7 @@ input.qtyminus {
   padding: 8px;
   border-radius: 10px;
   color: white;
-  background-color: #A7D2CB;
+  background-color: #FFA07A;
   text-align: center;
   cursor: pointer;
   width: 60%;
@@ -113,7 +113,7 @@ input.qtyminus {
   border:2px solid;
 }
 .bt button:hover {
- color: #A7D2CB;
+ color: #FFA07A;
   background-color: white;
   border:2px solid;
   border-radius: 10px;
@@ -121,8 +121,8 @@ input.qtyminus {
 /* Style the tab */
 .tab {
   overflow: hidden;
-  border: 2px solid #A7D2CB;
-  background-color: #A7D2CB;
+  border: 2px solid #FFA07A;
+  background-color: #FFA07A;
   font-family: 微軟正黑體;
   width:902px;
  
@@ -146,25 +146,25 @@ input.qtyminus {
 .tab button:hover 
 {
   background-color:white;
-  color: #A7D2CB;
+  color:#FFA07A;
   font-weight:bold;
-  border: 1px solid #A7D2CB;
+  border: 1px solid #FFA07A;
 }
 
 /* Create an active/current tablink class */
 .tab button.active 
 {
   background-color:white;
-  color: #A7D2CB;
+  color: #FFA07A;
   font-weight:bold;
-  border: 1px solid #A7D2CB;
+  border: 1px solid #FFA07A;
 }
 
 /* Style the tab content */
 .tabcontent {
   display: none;
   padding: 6px 12px;
-  border: 2px solid #A7D2CB;
+  border: 2px solid #FFA07A;
   border-top: none;
   font-family: 微軟正黑體;
   width:902px;
@@ -172,7 +172,7 @@ input.qtyminus {
 /* Style the container with a rounded border, grey background and some padding and margin */
 .container01 {
   border: 2px solid #F5FFFA;
-  background-color:#A7D2CB;
+  background-color:#FFDAB9;
   border-radius: 10px;
   padding: 16px;
   margin: 16px 0;
@@ -234,7 +234,7 @@ left:90px;
 .tbe
 {
   border: 1px solid gray;
-  background-color:#A7D2CB;
+  background-color:#FFDAB9;
   font-weight:bold;
   font-family: 微軟正黑體;
   width:180px;
