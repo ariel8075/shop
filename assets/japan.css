@@ -27,7 +27,7 @@
 .vertical-menu a 
 {
   
-  background-color:#FFA07A; /* Grey background color */
+  background-color:#FFFAFA; /* Grey background color */
   color: black; /* Black text color */
   display: block; /* Make the links appear below each other */
   padding: 9px; /* Add some padding */
@@ -39,14 +39,14 @@
 
 .vertical-menu a:hover 
 {
-  background-color:#FFA07A ;
+  background-color:#fff2ed;
   color: black;
    text-decoration: none; /* Dark grey background on mouse-over */
 }
 
 .vertical-menu a.active 
 {
-  background-color: #eee; /* Add a green color to the "active/current" link */
+  background-color: #fff2ed; /* Add a green color to the "active/current" link */
   color: black;
 }
 
