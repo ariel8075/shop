@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 </head>
-<body>
+<body style="background:#FFFAFA;">
 <!--導航區-->
 	<div id="navbar">
 	<!--側邊導航-->	
@@ -23,7 +23,6 @@
 			<a href="javascript:void(0)" class="closebtn " onclick="closeNav()">&times;</a>
 
 			<a href="shop.html">首頁</a>
-
 
 			<button class="dropdown-btn">商品分類
 				<i class="fa fa-caret-down"></i>
@@ -39,18 +38,18 @@
 			<a href="shoppingcart.html">購物車</a>
 		</div>
 
-		<div style="font-size:25px;padding: 6px 20px;cursor:pointer; float:left;" onclick="openNav()">&#9776;</div>
-
+		<div style="font-size:25px;padding: 11px 20px;cursor:pointer; float:left;" onclick="openNav()">&#9776;</div>
+        <div class="img0"><img src="images/pic16.jpg" height="60px"width="170px"></div>
 	<!--頂部導航-->	
 		<div class="a">
-			<div><a href="shoppingcart.html" style="padding: 10px 10px;margin-left:10px;">
+			<div><a href="shoppingcart.html" style="padding: 15px 10px;margin-left:10px;">
 				 <i class="fa fa-shopping-cart" style="font-size:24px;colorblack;"></i>&nbsp; 購物車</a> 
 			</div> 
 		</div>
 
 		<div class="b">
 			
-			<a href="#" style="padding: 10px 10px;margin-left:10px;">
+			<a href="#" style="padding: 15px 10px;margin-left:10px;">
 			<span onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-user-circle" style="font-size:24px;" onclick="document.getElementById('id01').style.display='block'"><span style="font:20px 微軟正黑體;">&nbsp; 登入</span></i></span>
 			</a>
 				<div id="id01" class="modal">
@@ -81,7 +80,7 @@
 		</div>
 		
 		<div class="c" >
-				<button onclick="myFunction()" class="t-dropbtn" style="">
+				<button onclick="myFunction()" class="t-dropbtn" style="padding-top:18px">
 				  	<i class="fa fa-caret-down p-0" style="font-size:13px;"></i> 
 				</button>
 				    <div id="t-myDropdown" class="t-dropdown-content" s>
@@ -126,7 +125,7 @@
 
 		</div>
 		<div class="d">
-			<form class="example" action="/action_page.php" style="float:left;max-width:190px; margin-left100px;padding: 7px 15px;">
+			<form class="example" action="/action_page.php" style="float:left;max-width:190px; margin-left100px;padding: 12px 15px;">
 				<input type="text" placeholder="Search.." name="search2">
 			    <button type="submit"><i class="fa fa-search"></i></button>
 			</form>
@@ -141,7 +140,6 @@
 		會員專區<hr>
 
 	<div class="vertical-menu">
-  <div>會員</div>
   <a href="vip.html" class="active">會員基本資料</a>
   <a href="order.html">訂單查詢</a>
  </div>
@@ -160,6 +158,8 @@
 		<div class="ipt01" >密　　碼：  <input type="text" require ><br></div>
 		<div class="ipt01" >地　　址：  <input type="text" required><br></div>
 	</div>
+	<div class="btn"><input type="button" value="取消" require ></div>
+	<div class="btn"><input type="button" value="儲存變更" require ></div>
 	</div>
 </div>
 </div>
