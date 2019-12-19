@@ -70,7 +70,7 @@
 }
 
 .price {
-  color: #696969;
+  color: #000080;
   font-size: 16px;
   font-weight:bold;
 }
@@ -81,7 +81,7 @@
   padding: 8px;
   border-radius: 10px;
   color: white;
-  background-color:#B1E2DA;
+  background-color:#FA8072;
   text-align: center;
   cursor: pointer;
   width: 60%;
@@ -96,7 +96,7 @@
   opacity: 0.5;
 }
 .card02 button:hover {
- color:#B1E2DA;
+ color:#FA8072;
   background-color: white;
   border:2px solid;
 }
