@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>確認訂單</title>
 	 <!--內部連結-->
+	 <link rel="stylesheet" type="text/css" href="assets/shoppingcart.css">
 	<link rel="stylesheet" type="text/css" href="assets/AA.css">
-
+    
 	<!--外部連結-->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -15,7 +16,7 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
 </head>
-<body style="background:#FFFAFA;">
+<body>
 <!--導航區-->
 	<div id="navbar">
 	<!--側邊導航-->	
@@ -23,6 +24,7 @@
 			<a href="javascript:void(0)" class="closebtn " onclick="closeNav()">&times;</a>
 
 			<a href="shop.html">首頁</a>
+
 
 			<button class="dropdown-btn">商品分類
 				<i class="fa fa-caret-down"></i>
@@ -38,18 +40,18 @@
 			<a href="shoppingcart.html">購物車</a>
 		</div>
 
-		<div style="font-size:25px;padding: 11px 20px;cursor:pointer; float:left;" onclick="openNav()">&#9776;</div>
-        <div class="img0"><img src="images/pic16.jpg" height="60px"width="170px"></div>
+		<div style="font-size:25px;padding: 6px 20px;cursor:pointer; float:left;" onclick="openNav()">&#9776;</div>
+
 	<!--頂部導航-->	
 		<div class="a">
-			<div><a href="shoppingcart.html" style="padding: 15px 10px;margin-left:10px;">
+			<div><a href="shoppingcart.html" style="padding: 10px 10px;margin-left:10px;">
 				 <i class="fa fa-shopping-cart" style="font-size:24px;colorblack;"></i>&nbsp; 購物車</a> 
 			</div> 
 		</div>
 
 		<div class="b">
 			
-			<a href="#" style="padding: 15px 10px;margin-left:10px;">
+			<a href="#" style="padding: 10px 10px;margin-left:10px;">
 			<span onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-user-circle" style="font-size:24px;" onclick="document.getElementById('id01').style.display='block'"><span style="font:20px 微軟正黑體;">&nbsp; 登入</span></i></span>
 			</a>
 				<div id="id01" class="modal">
@@ -80,7 +82,7 @@
 		</div>
 		
 		<div class="c" >
-				<button onclick="myFunction()" class="t-dropbtn" style="padding-top:18px">
+				<button onclick="myFunction()" class="t-dropbtn" style="">
 				  	<i class="fa fa-caret-down p-0" style="font-size:13px;"></i> 
 				</button>
 				    <div id="t-myDropdown" class="t-dropdown-content" s>
@@ -125,37 +127,99 @@
 
 		</div>
 		<div class="d">
-			<form class="example" action="/action_page.php" style="float:left;max-width:190px; margin-left100px;padding: 12px 15px;">
+			<form class="example" action="/action_page.php" style="float:left;max-width:190px; margin-left100px;padding: 7px 15px;">
 				<input type="text" placeholder="Search.." name="search2">
 			    <button type="submit"><i class="fa fa-search"></i></button>
 			</form>
 		</div>
 
-		
-
 	</div>
 
-<div class="content">
-  <h3>Sticky Navigation Example</h3>
-  <p>The navbar will stick to the top when you reach its scroll position.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-   <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-  <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantu
-</div>
+<!--購物車開始-->
+		<div class="container">
+		<div class="row">
+		<div class="col-md-12" >	
+			<div class="cart01title">
+				確認訂單
+			</div>
+			<table class="cart03table">
+				<thead>
+					<tr>
+						<th>商品品項</th>
+						<th>單價</th>
+						<th>數量</th>
+						<th>總計</th>
+						
+					</tr>
+				</thead>	
+				<tbody>
+			        <tr>
+				        <td>好吃泡麵</td>
+				        <td>NT $30</td>
+				        <td>4 個</td>
+				        <td>NT $120</td>
+				        
+			        </tr>
+			        <tr>
+				        <td>泡麵好吃</td>
+				        <td>NT $49</td>
+				        <td>1 個</td>
+				        <td>NT $49</td>
+				        
+			        </tr>
+			        <tr>
+				        <td>泡麵好吃</td>
+				        <td>NT $49</td>
+				        <td>1 個</td>
+				        <td>NT $49</td>
+				        
+			        </tr>
+			        
+			        
+			    </tbody>	
+			</table>
 
-<!--頂部導航-->
+			<table class="cart03table mt-3" style="border:0px;"> 
+			 	<thead>
+					<tr>
+						<th  colspan="4">買家資訊</th>		
+					</tr>
+				</thead>	
+				<tbody>
+					<tr>
+				        <td colspan="2">姓名: <input type="text" ></td>
+				         <td colspan="2">手機號碼: <input type="text"></td>
+			        </tr>
+			   
+			        
+			        <tr>
+				        <td colspan="4" >運送方式: <input type="text" ></td>
+			        </tr>
+			        <tr>
+				        <td colspan="4" >付款方式: <input type="text" ></td>
+			        </tr>
+				</tbody>	
+			</table>
+
+			
+
+			<div class="cartnext">
+				<input type="button" value="回去改">
+				<input type="button" value="送出">
+			</div>
+
+		</div>
+		</div>
+		</div>
+
+		
+
+<!--頁尾-->
 		<div class="footer">
-			<span>Tel:(02)6666-1788<span><br>
-			<span>Mail:noodleisgood@gmail.com<span>
+			<span>Tel:(02)6666-1788</span><br>
+			<span>Mail:noodleisgood@gmail.com</span>
 		    © 2019  All Rigts Reserved.
 		</div>
-  
 
  <script src="AA.js"></script>
 </body>

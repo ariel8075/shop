@@ -1,0 +1,87 @@
+.cart01title
+{
+	position:relative;
+	left:60px;
+	top:120px;
+	font-family:微軟正黑體;
+	font-size:25px;
+	margin-bottom:140px;
+}
+.cart01table{
+margin:0 auto;
+}
+
+table,th,td{border: 1px solid #ddd;
+padding:10px;}
+thead>tr>th {
+    border-bottom-width: 2px;
+}
+.cart01table{width:90%;}
+
+.cartnext{margin-top:40px;
+margin-left:60%;
+border-left:20px;}
+ .cartnext input{margin-left:25px;}
+
+
+
+								/*購物車02訂單資訊*/
+.carttitle02
+{
+	position:relative;
+	margin-left:210px;
+	top:120px;
+	font-family:微軟正黑體;
+	font-size:25px;
+	margin-bottom:140px;
+}
+.cart02
+{
+	width:630px;
+	position:relative;
+	margin:0 auto;
+	font-family:微軟正黑體;
+	font-size:18px;
+	line-height:60px;
+}
+.cartman input
+{
+	margin:20px 40px 20px 0px ;
+	height:30px;
+	border-radius:5px;
+	border:1px gray solid;
+	
+}
+.methodA input{margin-left:20px;
+	line-height0px;
+height40px;}
+
+select{font-size:14px;
+height:25px;}
+
+.methodB input{margin-left:20px;
+	line-height:0px;
+height:30px;}
+
+					/*購物車03確認訂單*/
+.cart03table{
+margin:0 auto;
+width:50%;
+
+}									
+.cart03table input{border:none;}
+
+
+
+/*底部*/
+.footer{width:100%;
+  height:60px;
+background:gray;
+text-align:center;
+position:relative;
+top:60px;
+}
+span.footer{padding-left:20px;
+            }
+
+
