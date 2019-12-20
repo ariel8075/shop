@@ -1,3 +1,5 @@
+input
+{font-family:微軟正黑體;}
 .cart01title
 {
 	position:relative;
@@ -12,7 +14,8 @@ margin:0 auto;
 }
 
 table,th,td{border: 1px solid #ddd;
-padding:10px;}
+padding:10px;
+}
 thead>tr>th {
     border-bottom-width: 2px;
 }
@@ -21,7 +24,8 @@ thead>tr>th {
 .cartnext{margin-top:40px;
 margin-left:60%;
 border-left:20px;}
- .cartnext input{margin-left:25px;}
+ .cartnext input{margin-left:25px;
+ cursor: pointer;}
 
 
 
@@ -30,10 +34,10 @@ border-left:20px;}
 {
 	position:relative;
 	margin-left:210px;
-	top:120px;
+	top:100px;
 	font-family:微軟正黑體;
 	font-size:25px;
-	margin-bottom:140px;
+	margin-bottom:120px;
 }
 .cart02
 {
@@ -50,9 +54,10 @@ border-left:20px;}
 	height:30px;
 	border-radius:5px;
 	border:1px gray solid;
-	
+	font-family:微軟正黑體;
 }
 .methodA input{margin-left:20px;
+	cursor: pointer;
 	line-height0px;
 height40px;}
 
@@ -61,9 +66,19 @@ height:25px;}
 
 .methodB input{margin-left:20px;
 	line-height:0px;
-height:30px;}
+height:30px;
+cursor: pointer;}
 
 					/*購物車03確認訂單*/
+.cart03title
+{
+	position:relative;
+	margin-left:110px;
+	top:100px;
+	font-family:微軟正黑體;
+	font-size:25px;
+	margin-bottom:120px;
+}					
 .cart03table{
 margin:0 auto;
 width:50%;
@@ -72,6 +87,44 @@ width:50%;
 .cart03table input{border:none;}
 
 
+/* The Modal (background) */
+.endokk {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.endokk-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.endclose {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.endclose:hover,
+.endclose:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 /*底部*/
 .footer{width:100%;
