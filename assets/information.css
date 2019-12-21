@@ -358,7 +358,9 @@ h5
 
 
 .container03 {
-  padding: 16px;
+	position:relative;
+	top:-20px;
+  padding: 14px;
 }
 
 /* The Modal (background) */
@@ -409,8 +411,8 @@ h5
     .rating > label:before {
     	position:relative;
     	top:10px;
-    	left:20px;
-        padding: 10px;
+    	left:5px;
+        padding: 13px;
         font-size: 50px;
         line-height: 1em;
         display: inline-block;
