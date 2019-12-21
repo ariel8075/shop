@@ -336,6 +336,8 @@ h5
 
 /* Set a style for all buttons */
 .btn2 button {
+	position:relative;
+	top:15px;
   background:#FB998E;
      color:white;
   padding: 14px 20px;
@@ -360,7 +362,7 @@ h5
 .container03 {
 	position:relative;
 	top:-20px;
-  padding: 14px;
+  padding: 25px;
 }
 
 /* The Modal (background) */
@@ -411,9 +413,9 @@ h5
     .rating > label:before {
     	position:relative;
     	top:10px;
-    	left:5px;
-        padding: 13px;
-        font-size: 50px;
+    	left:17px;
+        padding: 11px;
+        font-size: 48px;
         line-height: 1em;
         display: inline-block;
         content: "★";
