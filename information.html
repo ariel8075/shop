@@ -57,7 +57,7 @@
 			<span onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-user-circle" style="font-size:24px;" onclick="document.getElementById('id01').style.display='block'"><span style="font:20px 微軟正黑體;">&nbsp; 登入</span></i></span>
 			</a>
 				<div id="id01" class="modal">
-			    	<form class="modal-content animate" style="width: 30%;"action="/action_page.php" method="post">
+			    	<form class="modal-content animate" style="width: 350px;"action="/action_page.php" method="post">
 			    	<div class="imgcontainer">
 			      		<span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 			      	<div class="contant02" style="font-size:25px;">登入會員</div>
@@ -93,7 +93,7 @@
 			</a>
                </div>
 				<div id="id02" class="modal2">
-			    	<form class="modal-content animate" style="width: 30%;"action="/action_page.php" method="post">
+			    	<form class="modal-content animate" style="width: 350px;"action="/action_page.php" method="post">
 			    	<div class="imgcontainer">
 			      		<span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
 			      	<div class="contant02" style="font:25px 微軟正黑體;">註冊</div>
@@ -152,7 +152,7 @@
   <div class="col-9">
         <div class="box1">
      <div class="product">
-      <div class="contant_title">日清杯麵-海鮮口味<hr style=" height: 1px;background-color: #FB9D93;"></div>
+      <div class="contant_title">日清杯麵-海鮮口味<hr style=" height: 1px;background-color: #FA8B7F;"></div>
      <div class=" contant">原產地(國) : 日本<br>
      	                   內容量： 75g<br>
                            價格： NT$ 95
@@ -231,26 +231,67 @@
   <h5 style="font-weight: bold;">商品評價</h5>
   <p><div class="container01">
   <img src="images/pic13.jpg" alt="Avatar" style="width:90px">
-  <p><span>Chris Fox.</span> 
+  <p><span>apple0332</span> 
   <span class="fa fa-star checked"></span>
   <span class="fa fa-star checked"></span>
   <span class="fa fa-star checked"></span>
   <span class="fa fa-star checked"></span>
   <span class="fa fa-star"></span></p>
-  <p>John Doe saved us from a web disaster.</p>
+  <p>安安安安安</p>
+  <p>2019/12/20</p>
 </div>
 
 <div class="container01">
   <img src="images/pic13.jpg" alt="Avatar" style="width:90px">
-  <p><span >Rebecca Flex.</span> 
+  <p><span >banana2039</span> 
   <span class="fa fa-star checked"></span>
   <span class="fa fa-star checked"></span>
   <span class="fa fa-star checked"></span>
   <span class="fa fa-star "></span>
   <span class="fa fa-star"></span></p>
-  <p>No one is better than John Doe.</p>
-</div> 
-</p>
+  <p>安安安安安</p>
+  <p>2019/12/20</p>
+</div>
+  <!-- Button to open the modal login form -->
+<span class="btn3"><button onclick="document.getElementById('id03').style.display='block' " >商品評論</button></span>
+
+<!-- The Modal -->
+<div id="id03" class="modal03">
+  <!-- Modal Content -->
+  <form class="modal-content animate" style="width: 350px;" action="/action_page.php">
+    <div class="imgcontainer">
+    	<span onclick="document.getElementById('id03').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+    	<div class="contant02" style="font-size:25px;">商品評論</div>
+    	<div class="rating">
+        <input type="radio" id="star5" name="rating" value="5" hidden/>
+        <label for="star5"></label>
+        <input type="radio" id="star4" name="rating" value="4" hidden/>
+        <label for="star4"></label>
+        <input type="radio" id="star3" name="rating" value="3" hidden/>
+        <label for="star3"></label>
+        <input type="radio" id="star2" name="rating" value="2" hidden/>
+        <label for="star2"></label>
+        <input type="radio" id="star1" name="rating" value="1" hidden/>
+        <label for="star1"></label>
+    </div>
+    </div>
+ 
+    <div class="container03">
+      <label for="uname"><b>E-mail</b></label>
+      <span class="ipt3"><input type="e-mail" placeholder="輸入E-mail" name="uname" required></span>
+      
+      <label for="content"><b>內容</b></label>
+      <textarea cols="20" rows="5" placeholder="輸入內容" name="content" required></textarea>
+
+      <span class="btn2"><button type="submit">送出</button></span>
+      
+    </div>
+      
+    </div>
+  </form>
+</div>
+
 </div>
 </div> 
 </div>
