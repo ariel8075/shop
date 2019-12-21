@@ -92,7 +92,7 @@ width:50%;
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 200px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -106,9 +106,9 @@ width:50%;
 .endokk-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding:10px 20px 20px 20px;
   border: 1px solid #888;
-  width: 80%;
+  width: 40%;
 }
 
 /* The Close Button */
