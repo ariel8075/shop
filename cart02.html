@@ -146,44 +146,45 @@
 				訂單資訊
 			</div>
 			<hr style="background-color:#ddd; height 1px; width:65%;">
-			<div class="cart02">
-				<div class="cartman"  >姓 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp名：
-					<input type="text" required></input>
-				</div> 
-				
-				<div class="cartman"  >手機號碼：
-					<input type="text" required ></input>
-				</div>
-				
-				
-				
-				<div class="methodA">運送方式：
-					<input type="radio" name="sex" value="female" /style="margin-left125px;" >全家
-					<input type="radio" name="sex" value="female" /style="margin-left125px;" >7-11
-					<input type="radio" name="sex" value="female" /style="margin-left125px;" >宅配
-			     		<span style="font-size14px; padding-left:8px;">地址:</span>
-			     		<input type="text" required  style="height:25px;border-radius5px;border:px gray solid;margin-left:0px;cursor: text;">
-			     	
-			     	<br>
-			     	
-			     	
-				</div> 
-				<div class="methodB">付款方式：
-					<input type="button" value="貨到付款" >
-					<input type="button" value="銀行轉帳" >
-				</div>
-				
+			<form action="" method="post">
+				<div class="cart02">
+					<div class="cartman"  >姓 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp名：
+						<input type="text" required="required">
+					</div> 
+					
+					<div class="cartman"  >手機號碼：
+						<input type="text" required="required" >
+					</div>
+					
+					
+					
+					<div class="methodA">運送方式：
+						<input type="radio" name="sex" value="female" /style="margin-left125px;" >全家
+						<input type="radio" name="sex" value="female" /style="margin-left125px;" >7-11
+						<input type="radio" name="sex" value="female" /style="margin-left125px;" >宅配
+				     		<span style="font-size14px; padding-left:8px;">地址:</span>
+				     		<input type="text" required="required"  style="height:25px;border-radius5px;border:px gray solid;margin-left:0px;cursor: text;">
+				     	
+				     	<br>
+				     	
+				     	
+					</div> 
+					<div class="methodB">付款方式：
+						<input type="button" value="貨到付款" >
+						<input type="button" value="銀行轉帳" >
+					</div>
+					
 
+					
+					
+				</div>
+				<hr style="background-color:#ddd; height:0.5px; width:65%;">
 				
-				
-			</div>
-			<hr style="background-color:#ddd; height:0.5px; width:65%;">
-			
-			<div class="cartnext">
-				<input type="button" value="回購物車" onclick="location.href='cart01.html'">
-				<input type="button" value="結帳Go" onclick="location.href='cart03.html'">
-			</div>
-			
+				<div class="cartnext">
+					<input type="submit" value="回購物車" onclick="location.href='cart01.html'">
+					<input type="submit" value="結帳Go" onclick="location.href='cart03.html'">
+				</div>
+			</form>		
 		</div>
 		</div>
 		</div>	

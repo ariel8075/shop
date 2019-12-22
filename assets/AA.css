@@ -454,6 +454,55 @@ img {vertical-alignmiddle;}
   .prev, .next,.text {font-size: 11px}
 }
 
+
+
+                                                  /*商品分類*/
+.inbox01{box-shadow: 2px 5px 9px 2px rgba(0, 0, 0, 0.2);
+  position:relative; 
+  height:300px;
+  top:25px;
+  width:70%;
+  margin:0px auto;
+   background-color:white;
+   padding:5px;}
+.inbox01-s
+{float:left;
+ width:100px;
+ position:relative;
+ }
+
+
+                                                  /*限時特賣*/
+.inbox02{box-shadow: 2px 5px 9px 2px rgba(0, 0, 0, 0.2);
+  position:relative; 
+  height:300px;
+  top:25px;
+  width:70%;
+  margin:0px auto;
+   background-color:white;
+   padding:15px 80px 15px;}
+.outbox
+{
+ background-color:#F0E68C;
+ width:100%;
+ height:350px;
+}
+.inbox02pc{float:left;
+ width:100px;
+ position:relative;
+ left:18%;
+ top:1%;}
+
+.timer{float:left;
+  left:35%;
+  position:relative;
+top:-8%;
+font-size:30px;}
+
+#demo{font-size:50px;}
+
+
+
                                                 /*熱門HOT商品*/
 .container02 {
   position: relative;
@@ -534,38 +583,6 @@ margin:auto;
 .card button:hover {
   opacity: 0.7;
 }
-
-
-                                                  /*限時特賣*/
-.ad01{box-shadow: 2px 5px 9px 2px rgba(0, 0, 0, 0.2);
-  position:relative; 
-  height:300px;
-  top:25px;
-  width:70%;
-  margin:0px auto;
-   background-color:white;
-   padding:15px 80px 15px;}
-.box0
-{
- background-color:#F0E68C;
- width:100%;
- height:350px;
-}
-.ad01pc{float:left;
- width:100px;
- position:relative;
- left:18%;
- top:1%;}
-
-.timer{float:left;
-  left:35%;
-  position:relative;
-top:-8%;
-font-size:30px;}
-
-#demo{font-size:50px;}
-
-
 
 
 /*底部*/
