@@ -16,6 +16,7 @@ body {
   top: 0; /*navbar at the top of the page */
   width: 100%;
   z-index:5;
+  border-bottom:1px #C0C0C0 solid;
   
 }
 #navbar a { /* 導航連結 */
@@ -379,6 +380,8 @@ span.psw {
 img {vertical-alignmiddle;}
 
 .slideshow-container {
+  position:relative;
+  top:12px;
   width:100%;
   position: relative;
   margin: auto;
