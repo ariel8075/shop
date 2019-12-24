@@ -63,8 +63,8 @@ font-family: 微軟正黑體;
 {   
 float:right;
 position:relative;
-right:0px;
-z-index:99;
+right:-290px;
+
 }  
 
 div
@@ -347,9 +347,13 @@ span.psw {
 }                   
     
  /*Banner圖片轉換 */
-
-.carousel-item
+.carousel
 {
+	
+	margin-top:60px;
+}
+.carousel-item
+{   
 	height:550px;
 }
 
