@@ -142,79 +142,72 @@
 		<div class="container">
 		<div class="row">
 		<div class="col-md-12">
-		<div>		
+				
 			<div class="carttitle02">
 				訂單資訊
 			</div>
 			<hr style="background-color:#ddd; height 1px; width:65%;">
-			<form action="" method="post">
-				<div class="cart02">
-					<div class="cartman"  >姓 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp名：
-						<input type="text" required="required">
-					</div> 
-					
-					<div class="cartman"  >手機號碼：
-						<input type="text" required="required" >
-					</div>
-					
-					
-					
-					<div class="methodA">運送方式：
-						<input type="radio" name="sex" value="female" /style="margin-left125px;" >全家
-						<input type="radio" name="sex" value="female" /style="margin-left125px;" >7-11
-						<input type="radio" name="sex" value="female" /style="margin-left125px;" >宅配
-				     		<span style="font-size14px; padding-left:8px;">地址:</span>
-				     		<input type="text" required="required"  style="height:25px;border-radius5px;border:px gray solid;margin-left:0px;cursor: text;">
-				     	
-				     	<br>
-				     	
-				     	
-					</div> 
-					<div class="methodB">付款方式：
-						<input type="button" value="貨到付款" >
-						<input type="button" value="銀行轉帳" >
-					</div>
-					
+			<form class="needs-validation form-inline" novalidate name="payman" action="cart03.html">
+				
+					<div class="form-inline cart02">
+				      <label for="validationCustom01">姓 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp名： </label>
+				      <input type="text" class="form-control" id="validationCustom01" valueMark name="username" required>
+				      <div class="invalid-feedback pl-3" style="width:50%">
+				        請填入姓名!
+				      </div>
+		    		</div>
+		    	
 
+		  
+				    <div class="form-inline cart02">
+				      <label for="validationCustom03">手機號碼： </label>
+				      <input type="text" class="form-control" id="validationCustom03" name="username" required>
+				      <div class="invalid-feedback pl-3" style="width:50%">
+				        請填正確手機號碼!
+				      </div>
+				    </div>
+				
 					
 					
-				</div>
+					<fieldset class="form-group1 cart02-2" >
+					    運送方式：
+					    <div class="custom-control custom-radio custom-control-inline">
+						   <input type="radio" id="sendto01" name="sendto" class="custom-control-input ">
+						   <label class="custom-control-label" for="sendto01">7-11</label>
+						</div>
+						<div class="custom-control custom-radio custom-control-inline">
+						   <input type="radio" id="sendto02" name="sendto" class="custom-control-input">
+						   <label class="custom-control-label" for="sendto02">全家</label>
+						</div>
+						<div class="custom-control custom-radio custom-control-inline">
+						   <input type="radio" id="sendto03" name="sendto" class="custom-control-input">
+						   <label class="custom-control-label" for="sendto03">宅配</label>
+						</div>					      
+					</fieldset>
+
+					<fieldset class="form-group2 cart02-2">
+					    付款方式：
+					    <div class="custom-control custom-radio custom-control-inline">
+						    <input type="radio" id="payway01" name="payway" class="custom-control-input">
+						    <label class="custom-control-label" for="payway01">貨到付款</label>
+						</div>
+						<div class="custom-control custom-radio custom-control-inline">
+					    	<input type="radio" id="payway02" name="payway" class="custom-control-input">
+					    	<label class="custom-control-label" for="payway02">銀行轉帳</label>
+						</div>
+					      
+					 </fieldset>
+									
 				<hr style="background-color:#ddd; height:0.5px; width:65%;">
 				
-
 				<div class="cartnext">
 					<input type="submit" value="回購物車" onclick="location.href='cart01.html'">
-					<input type="submit" value="結帳Go" onclick="location.href='cart03.html'">
+					<input type="submit" value="結帳Go">
 				</div>
 			</form>		
 
-				
-				
-				<div class="methodA">運送方式：
-					<input type="radio" name="sex" value="female" /style="margin-left125px;" required>全家
-					<input type="radio" name="sex" value="female" /style="margin-left125px;" >7-11
-					<input type="radio" name="sex" value="female" /style="margin-left125px;" >宅配
-			     		<span style="font-size14px; padding-left:8px;">地址:</span>
-			     		<input type="text" required  style="height:25px;border-radius5px;border:px gray solid;margin-left:0px;cursor: text;">
-			     	
-			     	<br>
-			     	
-			     	
-				</div> 
-				<div class="methodB">付款方式：
-					<input type="button" value="貨到付款" >
-					<input type="button" value="銀行轉帳" >
-				</div>
+		
 			
-				
-			</div>
-			<hr style="background-color:#ddd; height:0.5px; width:65%;">
-			
-			<div class="cartnext">
-				<input type="button" value="回購物車" onclick="location.href='cart01.html'">
-				<input type="button" value="結帳Go" onclick="location.href='cart03.html'">
-			</div>
-			</div>
 
 		</div>
 		</div>
@@ -237,5 +230,27 @@
 		</div>
 
  <script src="AA.js"></script>
+ <script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+
+
+      }, false);
+    });
+  }, false);
+})();
+</script>
 </body>
 </html>

@@ -506,13 +506,8 @@ font-size:30px;}
 
 
 
-                                                /*熱門HOT商品*/
-.container02 {
-  position: relative;
-  width: 100%;
-  height:100%;
-  background-color:#B1E2DA;
-}
+                                                /*熱銷商品*/
+
 
 .card img{width:70%;
 margin:auto;
@@ -520,40 +515,8 @@ margin:auto;
   display: block;
   height: auto;
   transition 1s ease;
-  backface-visibility :hidden;}
-.middle {
-    position: absolute;
-   bottom: 108%;
-  height: 530%;
-  left: 0;
-  right: 0;
-  background-color:#6E7376;
-  overflow: hidden;
-  width: 100%;
- 
-  transition: 1s ease;
- opacity: 0.99;
-}
-
-.container02:hover .image {
-  opacity: 1;
-}
-
-.container02:hover .middle {
-  bottom: 0;
-  height: 0;
-}
-
-.hottext {
-  opacity: 1;
-  background-color:#6E7376;
-  color: white;
-  font-size: 30px;
-  padding: 40px 20px 2px 20px;
-  height:290px;
-  line-height:25px;
-}
-
+  backface-visibility :hidden;
+padding-top:40px;}
 /**/
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -571,31 +534,79 @@ margin:auto;
 .card button {
   border: none;
   outline: 0;
-  padding:14px 12px 0px 12px;
+  padding: 12px;
   color: white;
-
   background-color:#B1E2DA;
-
   text-align: center;
   cursor: pointer;
   width: 100%;
   font-size: 18px;
   font-weight:600;
   height:100%;
+  margin:0px;
 }
 .card button:hover {
   opacity: 0.7;
 }
 
 
+.cardcontainer {
+  position: relative;
+  width: 100%;
+}
+
+.cardimage {
+  display: block;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.cardoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color:#3C3C3C;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: scale(0);
+  -ms-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: .4s ease;
+  transition: .5s ease;
+  opacity: 0.85;
+}
+
+.cardcontainer:hover .cardoverlay {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.cardtext {
+  color: white;
+  font-size: 20px;
+
+  position: absolute;
+  width:90%;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 1;
+}
+
+
+
 /*底部*/
 .footer{width:100%;
   height:60px;
 background:#B8DBD5;
-text-align:center;
+text-aligncenter;
 }
-span.footer{padding-left:20px;
-            }
-
 
 
