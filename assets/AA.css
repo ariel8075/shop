@@ -54,51 +54,25 @@ font-family: 微軟正黑體;
 {   
 float:right;
 position:relative;
-right:0px;
-display :inline-block;
-padding: 6px 5px 0px 5px;
+right:-30px;
+
 font-family: 微軟正黑體;
 }
-
-.t-dropbtn{border:none;
-  cursor :pointer;
-background:none;
-color:white;
-padding:13px 13px;}
-.t-dropbtn:hover{
-  background-color:#ddd;
-}
-
-.t-dropdown-content {
-  display :none;
-  position: absolute;
-  background-color:gray;
-  min-width: 70px;
-  overflow:hidden;
-  box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.2);
- 
-}
-.t-dropdown-content a {
-  color: black;
-  padding: 10px 19px 10px 10px;
-  width:100%;
-  text-decoration: none;
-  display: block;
-
-}
-div
-{
-	font-family: 微軟正黑體;
-}
-.t-dropdown a:hover {background-color: #ddd;}
-.show {display:block;} 
 
 .d
 {   
 float:right;
 position:relative;
-left:230px;
-}              
+right:-290px;
+
+}  
+
+div
+{
+	font-family: 微軟正黑體;
+}
+
+            
                                   
                                   /*搜索欄*/
 form.example{padding: 15px;}
@@ -373,88 +347,14 @@ span.psw {
 }                   
     
  /*Banner圖片轉換 */
-
-* {box-sizing: border-box}
-/*下2個不確定要嗎*/
-.mySlides {display none}
-img {vertical-alignmiddle;}
-
-.slideshow-container {
-  position:relative;
-  top:12px;
-  width:100%;
-  position: relative;
-  margin: auto;
+.carousel
+{
+	
+	margin-top:60px;
 }
-.prev, .next { /* 上(下)一張按鈕 */
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-.next { /* 下一張按鈕位子 */
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-/*懸停時，透明黑色背景*/
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-.text {  /* 底下說明文字*/
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-.numbertext { /* 左上數字 */
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-.dot { /* 下面圖片轉換的點 */
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-  
-}
-.active, .dot:hover {
-  background-color: #717171;
-}
-.banner { /* 每張圖的變換 */
-  -webkit-animation-name: banner;
-  -webkit-animation-duration: 1.5s;
-  animation-name: banner;
-  animation-duration: 1.5s;
-}
-@-webkit-keyframes banner {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-@keyframes banner {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-@media only screen and (max-width: 300px)
- { /*在小螢幕時，字變小 */
-  .prev, .next,.text {font-size: 11px}
+.carousel-item
+{   
+	height:550px;
 }
 
 

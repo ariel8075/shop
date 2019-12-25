@@ -5,8 +5,9 @@
   left:220px;
   font-family: 微軟正黑體;
   font-size: 22px;
-  top:-165px;
+  top:-210px;
   color:black;
+  width:400px;
   
 }
 
@@ -14,7 +15,7 @@
 {
 	position:relative;
 	left:10px;
-	top:70px;
+	top:110px;
 	font-size:25px;
 }
 .vertical-menu 
@@ -103,8 +104,8 @@
 .box1
 {
  
-  position: absolute;
-  top:200px;
+   position: absolute;
+  top:450px;
   float:left;
   height:400px;
    left:100px;
@@ -117,29 +118,11 @@
   float:left;
   left:100px;
   height:400px;
-  top:550px;
+  top:800px;
   
 }
-.box3
-{
- 
-  position: absolute;
-  float:left;
-  left:100px;
-  height:400px;
-  top:950px;
-  
-}
-.box4
-{
- 
-  position: absolute;
-  float:left;
-  left:100px;
-  height:400px;
-  top:1350px;
-  
-}
+
+
 
 .product01
 {
@@ -173,13 +156,24 @@ position: relative;
 left:110px;
 top:-40px;
 }
+.carousel 
+{
+	position:relative;
+	top:-230px;
+	left:200px;
+	width:850px;
+}
+.carousel-item
+{ 
+height:300px;
+}
 /*底部*/
 .footer{width:100%;
   height:60px;
 background:#B8DBD5;
 text-align:center;
 position:relative;
-top:665px;
+top:722px;
 }
 span.footer{padding-left:20px;
             }
