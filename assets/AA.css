@@ -15,7 +15,7 @@ body {
   position: fixed; 
   top: 0; /*navbar at the top of the page */
   width: 100%;
-  z-index:5;
+  z-index:30;
   border-bottom:1px #C0C0C0 solid;
   
 }
