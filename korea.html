@@ -13,7 +13,24 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link rel="Shortcut Icon" type="image/x-icon" href="images/favicon-20200101051620220.ico" />
+	    <link rel="Shortcut Icon" type="image/x-icon" href="images/favicon-20200101051620220.ico" />
+	    
+	 <script>
+	   $(function(){
+    $("#gotop").click(function(){
+        jQuery("html,body").animate({
+            scrollTop:0
+        },1000);
+    });
+    $(window).scroll(function() {
+        if ( $(this).scrollTop() > 300){
+            $('#gotop').fadeIn("fast");
+        } else {
+            $('#gotop').stop().fadeOut("fast");
+        }
+    });
+});
+</script>
 </head>
 <body style="background:#FFFAFA;">
 <!--導航區-->
@@ -237,7 +254,7 @@ for (var i = 0; i < btns.length; i++) {
 }</script>
 
 
-
+<div id="gotop"><img src="images/pic34.jpg" width="40px" height="40px"></div>
 <!--頂部導航-->
 <div class="footer">
       <span>Tel:(02)6666-1788<span><br>
