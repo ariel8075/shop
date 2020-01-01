@@ -39,7 +39,7 @@
 		</div>
 
 		<div style="font-size:25px;padding: 11px 20px;cursor:pointer; float:left;" onclick="openNav()">&#9776;</div>
-        <div class="img0"><img src="images/pic16.jpg" height="60px"width="170px"></div>
+        <div class="img0"><a href="index.html"><img src="images/pic16.jpg" height="60px"width="170px"></a></div>
 	<!--頂部導航-->	
 		<div class="a">
 			<div><a href="cart01.html" style="padding: 15px 10px;margin-left:10px;">
@@ -242,43 +242,53 @@
 		        </div>
 		</div>
 		<div class="row" style="marginauto;justify-content:space-between;padding:0px 55px;">
-				<div class="card" style="margin-left10%;">
-				    	<img src="images/pic1.jpg" alt="Denim Jeans" class="image">
+				<div class="card">
+					<div class="cardcontainer">
+						<img src="images/001.png"  class="pt-0" style="width:21%;position: absolute; height:23%">
+					    <img src="images/pic5.jpg" alt="Denim Jeans" class="cardimage">
+					    <div class="cardoverlay">
+							<div class="cardtext ">10萬網友大好評!<br><span style=" font-size: 25px;">回購率高達96.6%</span>
+							</div>
+						</div>
+					
 				    <h1>日清杯麵-海鮮口味</h1>
 				    <p class="price">NT120</p>
 				    <p class="word">清爽的湯頭，Q彈的麵條，讚!</p>
-				    <div class="container02">
-				    	 <div class="middle">
-				    		<div class="hottext">熱銷第一<br><br><span style="font-size:20px;">10萬網友大好評!<br>回購率高達96.6%</span><br><br><br><br>↓ ↓ ↓<br><span style="font-size:15px;">觸碰下方揭曉</span></div>
-				    	 </div>
-				    	 <p><button>點擊前往購買</button></p>
-					</div>
+				    </div>
+				    <button>點擊前往購買</button>
+					
 				</div>
 				
-				<div class="card" style="margin-left10%;">
-				    	<img src="images/pic1.jpg" alt="Denim Jeans" class="image">
+				<div class="card">
+					<div class="cardcontainer">
+						<img src="images/002.png"  class="pt-0" style="width:21%;position: absolute; height:23%">
+					    <img src="images/pic4.jpg" alt="Denim Jeans" class="cardimage">
+					    <div class="cardoverlay">
+							<div class="cardtext">好評持續增加!<br><span style=" font-size: 25px;">滿意度高達90%</span></div>
+						</div>
+					
 				    <h1>日清杯麵-海鮮口味</h1>
 				    <p class="price">NT120</p>
 				    <p class="word">清爽的湯頭，Q彈的麵條，讚!</p>
-				    <div class="container02">
-				    	 <div class="middle">
-				    		<div class="hottext">熱銷第二<br><br><span style="font-size:20px;">好評度持續增加<br>回購率高達90%</span><br><br><br><br>↓ ↓ ↓<br><span style="font-size:15px;">觸碰下方揭曉</span></div>
-				    	 </div>
-				    	 <p><button>點擊前往購買</button></p>
-					</div>
+				    </div>
+				    <button>點擊前往購買</button>
+					
 				</div>
 
-				<div class="card" style="margin-left10%;">
-				    	<img src="images/pic1.jpg" alt="Denim Jeans" class="image">
+				<div class="card">
+					<div class="cardcontainer">
+						<img src="images/003.png"  class="pt-0" style="width:21%;position: absolute; height:23%">
+					    <img src="images/pic11.jpg" alt="Denim Jeans" class="cardimage" style="margin-left:45px;">
+					    <div class="cardoverlay">
+							<div class="cardtext">銷售量持續上升!<br><span style=" font-size: 25px;">10萬人吃過都說讚</span></div>
+						</div>
+					
 				    <h1>日清杯麵-海鮮口味</h1>
 				    <p class="price">NT120</p>
 				    <p class="word">清爽的湯頭，Q彈的麵條，讚!</p>
-				    <div class="container02">
-				    	 <div class="middle">
-				    		<div class="hottext">熱銷第三<br><br><span style="font-size:20px;">10萬網友大好評!<br>回購率高達96.6%</span><br><br><br><br>↓ ↓ ↓<br><span style="font-size:15px;">觸碰下方揭曉</span></div>
-				    	 </div>
-				    	 <p><button>點擊前往購買</button></p>
-					</div>
+				    </div>
+				    <button>點擊前往購買</button>
+			
 				</div>
 				   
 		</div>
@@ -293,14 +303,46 @@
 
 
 <!--頁尾-->
-		<div class="footer">
-			<span>Tel:(02)6666-1788</span><br>
-			<span>Mail:noodleisgood@gmail.com</span>
-		    © 2019  All Rigts Reserved.
-		</div>
+ <div class="footer">
+   <div style="text-align:center;">Tel:(02)6666-1788</div>
+   <span style="padding-left:33%; padding-right:80px;">Mail:noodleisgood@gmail.com
+   © 2019 INTRAMEN All Rigts Reserved.</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+   <span style="padding-left500px;">訪客人次 : 2343532</span>
+   
+  </div>
   
 
  <script src="AA.js"></script>
+ <script> 
+/*倒數計時*/
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+// Update the count down every 1 second
+var x = setInterval(function() {
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+
+ </script>
  
 </body>
 </html>
