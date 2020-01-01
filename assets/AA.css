@@ -360,19 +360,71 @@ span.psw {
 
 
                                                   /*商品分類*/
+.outbox01
+{
+   text-align:center;
+ background-color#F0E68C;
+ width:100%;
+ height:480px;
+}                                                  
 .inbox01{box-shadow: 2px 5px 9px 2px rgba(0, 0, 0, 0.2);
   position:relative; 
-  height:300px;
-  top:25px;
+  height:340px;
+  top:10px;
   width:70%;
   margin:0px auto;
    background-color:white;
-   padding:5px;}
+   padding:3px 3px 3px 3px;
+   text-align:center;
+ }
 .inbox01-s
 {float:left;
  width:100px;
+ max-width:100%;
+ height75%;
  position:relative;
+background-color#F0E68C;
  }
+
+.me2{margin-top60px;
+  margin-left20px;
+
+  border-radius: 4px;
+  background-color:#B1E2DA;
+  border:none;
+  color:white;
+  font-size:20px;
+  padding: 5px;
+  height:40px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;}
+
+
+.me2 span {
+  cursor :pointer;
+  display:inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.me2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.me2:hover span {
+  padding-right: 25px;
+}
+
+.me2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 
 
                                                   /*限時特賣*/
@@ -384,11 +436,11 @@ span.psw {
   margin:0px auto;
    background-color:white;
    padding:15px 80px 15px;}
-.outbox
+.outbox02
 {
  background-color:#F0E68C;
  width:100%;
- height:350px;
+ height:480px;
 }
 .inbox02pc{float:left;
  width:100px;
@@ -499,11 +551,26 @@ padding-top:40px;}
   text-align: center;
   opacity: 1;
 }
-
+.hotmove{
+  animation-name:hot;
+    animation-duration:8s;
+}
+#hot1{animation-delay:-3s;}
+#hot2{animation-delay:-4s;}
+#hot3{animation-delay:-5s;}
+@keyframes hot{
+    from{
+        left:-100%;
+    }
+    to{
+        left:0%;
+    }
+}
 
 
 /*底部*/
-.footer{width:100%;
+.footer{margin-top:100px;
+  width:100%;
   height:60px;
 background:#B8DBD5;
 text-aligncenter;
