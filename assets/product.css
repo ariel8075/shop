@@ -1,13 +1,13 @@
 .title
 {
   position:relative;
-  float:left;
+  
   left:220px;
   font-family: 微軟正黑體;
   font-size: 22px;
   top:-210px;
   color:black;
-  width:100px;
+  width:400px;
 }
 
 .content
@@ -86,7 +86,7 @@
   font-size: 18px;
   font-family: 微軟正黑體;
   font-weight:600;
-  
+  border:2px solid;
 }
 
 .card01 img:hover {
@@ -97,94 +97,24 @@
  color:#FA8072;
   background-color: white;
   border:2px solid;
-}
-.box1
-{
- 
-  position: absolute;
-  top:450px;
-  float:left;
-  height:400px;
-   left:100px;
   
 }
-.box2
-{
- 
-  position: absolute;
-  float:left;
-  left:100px;
-  height:400px;
-  top:800px;
-  
-}
-.box3
-{
- 
-  position: absolute;
-  float:left;
-  left:100px;
-  height:400px;
-  top:1200px;
-  
-}
-.box4
-{
- 
-  position: absolute;
-  float:left;
-  left:100px;
-  height:400px;
-  top:1600px;
-  
-}
+
+
 
 .product01
 {
-float:left;
+
 position: relative;
-top:-50px;
-left:110px;
+top:-272.5px;
+left:190px;
+margin-left:20px;
+margin-right:90px;
+margin-top:85px;
+margin-bottom:5px;
 }
 
-.product02
-{
-float:left;
-position: relative;
-left:220px;
-top:-50px;
 
-}
-
-.product03
-{
-float:left;
-position: relative;
-left:330px;
-top:-50px;
-}
-
-.product04
-{
-float:left;
-position: relative;
-left:110px;
-top:-40px;
-}
-.product05
-{
-float:left;
-position: relative;
-left:220px;
-top:-40px;
-}
-.product06
-{
-float:left;
-position: relative;
-left:330px;
-top:-40px;
-}
 .carousel 
 {
 	position:relative;
@@ -201,7 +131,7 @@ height:300px;
 background:#B8DBD5;
 text-align:center;
 position:relative;
-top:1470px;
+top:34px;
 }
 span.footer{padding-left:20px;
             }
