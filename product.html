@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>商品|全部商品</title>
 	 <!--內部連結-->
 	<link rel="stylesheet" type="text/css" href="assets/AA.css">
     <link rel="stylesheet" type="text/css" href="assets/product.css">
@@ -13,7 +13,25 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
+	    <link rel="Shortcut Icon" type="image/x-icon" href="images/favicon-20200101051620220.ico" />
+
+	 <script>
+	   $(function(){
+    $("#gotop").click(function(){
+        jQuery("html,body").animate({
+            scrollTop:0
+        },1000);
+    });
+    $(window).scroll(function() {
+        if ( $(this).scrollTop() > 300){
+            $('#gotop').fadeIn("fast");
+        } else {
+            $('#gotop').stop().fadeOut("fast");
+        }
+    });
+});
+</script>
+
 </head>
 <body style="background:#FFFAFA;">
 <!--導航區-->
@@ -39,7 +57,7 @@
 		</div>
 
 		<div style="font-size:25px;padding: 11px 20px;cursor:pointer; float:left;" onclick="openNav()">&#9776;</div>
-        <div class="img0"><img src="images/pic16.jpg" height="60px"width="170px"></div>
+        <div class="img0" id="ah"><a href="index.html"><img src="images/pic16.jpg" height="60px"width="170px"></a></div>
 	<!--頂部導航-->	
 		<div class="a">
 			<div><a href="cart01.html" style="padding: 15px 10px;margin-left:10px;">
@@ -154,10 +172,10 @@
       <img src="images/pic28.jpg" class="d-block w-100" >
     </div>
     <div class="carousel-item">
-      <img src="images/pic24.jpg" class="d-block w-100" alt="...">
+      <img src="images/pic24.jpg" class="d-block w-100" >
     </div>
     <div class="carousel-item">
-      <img src="images/pic23.jpg"  class="d-block w-100" alt="...">
+      <img src="images/pic23.jpg"  class="d-block w-100">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -212,7 +230,7 @@
 <div class="row">
 <div class="product01">
       <div class="card01">
-        <a href="information.html"><img src="images/pic4.jpg" alt="日清泡麵" style="width:70%"></a>
+        <a href="information.html"><img src="images/pic4.jpg"  style="width:70%"></a>
     </div>
         <div class="card02">
       <h5 style="font-weight:bold;">咚兵衛油豆腐烏龍麵</h5>
@@ -222,7 +240,7 @@
   </div>
   <div class="product01">
       <div class="card01">
-       <a href="information.html"> <img src="images/pic5.jpg" alt="日清泡麵" style="width:70%"></a>
+       <a href="information.html"> <img src="images/pic5.jpg"  style="width:70%"></a>
     </div>
        <div class="card02">
       <h5 style="font-weight:bold;">農心-辛拉麵(1入)</h5>
@@ -232,7 +250,7 @@
   </div>
   <div class="product01">
       <div class="card01">
-        <a href="information.html"><img src="images/pic6.jpg" alt="日清泡麵" style="width:70%"></a>
+        <a href="information.html"><img src="images/pic6.jpg"  style="width:70%"></a>
     </div>
         <div class="card02">
       <h5 style="font-weight:bold;">不倒翁-金拉麵(5入)</h5>
@@ -246,7 +264,7 @@
 <div class="row">
  <div class="product01">
       <div class="card01">
-       <a href="information.html"> <img src="images/pic7.jpg" alt="日清泡麵" style="width:70%"></a>
+       <a href="information.html"> <img src="images/pic7.jpg"  style="width:70%"></a>
     </div>
         <div class="card02">
       <h5 style="font-weight:bold;">三養-辣雞麵(5入)</h5>
@@ -256,7 +274,7 @@
  </div>
  <div class="product01">
       <div class="card01">
-        <a href="information.html"><img src="images/pic8.jpg" alt="日清泡麵" style="width:70%"></a>
+        <a href="information.html"><img src="images/pic8.jpg"  style="width:70%"></a>
     </div>
         <div class="card02">
       <h5 style="font-weight:bold;">農心-安城湯麵(4入)</h5>
@@ -266,7 +284,7 @@
   </div>
   <div class="product01">
       <div class="card01">
-        <a href="information.html"><img src="images/pic9.jpg" alt="日清泡麵" style="width:70%"></a>
+        <a href="information.html"><img src="images/pic9.jpg"  style="width:70%"></a>
     </div>
        <div class="card02">
       <h5 style="font-weight:bold;">MAMA-酸辣蝦泡麵</h5>
@@ -280,7 +298,7 @@
 <div class="row">
   <div class="product01">
       <div class="card01">
-       <a href="information.html"> <img src="images/pic10.jpg" alt="日清泡麵" style="width:70%"></a>
+       <a href="information.html"> <img src="images/pic10.jpg"  style="width:70%"></a>
     </div>
        <div class="card02">
       <h5 style="font-weight:bold;">MAMA-綠咖哩雞泡麵</h5>
@@ -290,7 +308,7 @@
  </div>
  <div class="product01">
       <div class="card01">
-        <a href="information.html"><img src="images/pic11.jpg" alt="日清泡麵" style="width:70%"></a>
+        <a href="information.html"><img src="images/pic11.jpg"  style="width:70%"></a>
     </div>
         <div class="card02">
       <h5 style="font-weight:bold;">Indo mine-印尼炒麵</h5>
@@ -300,7 +318,7 @@
   </div>
   <div class="product01">
       <div class="card01">
-        <a href="information.html"><img src="images/pic12.jpg" alt="日清泡麵" style="width:70%"></a>
+        <a href="information.html"><img src="images/pic12.jpg"  style="width:70%"></a>
     </div>
         <div class="card02">
       <h5 style="font-weight:bold;">MyKuali-檳城白咖哩麵</h5>
@@ -327,7 +345,7 @@ for (var i = 0; i < btns.length; i++) {
 }</script>
 
 
-
+<div id="gotop"><img src="images/pic34.jpg" width="40px" height="40px"></div>
 <!--頂部導航-->
 <div class="footer">
       <span>Tel:(02)6666-1788<span><br>

@@ -91,5 +91,3 @@ window.onclick = function(event) {
   }
 }
 
-
-

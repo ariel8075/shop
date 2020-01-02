@@ -185,7 +185,39 @@ form.example::after {
 	float:left;
 	left:10px;
 }    
+#ah a:hover
+{
+ background:#A7D2CB;
+  
+}
+#ah a
+{ 
+background:#A7D2CB;
+  
+  
+}
+#ah a:link
+{
+background:#A7D2CB;
+}
+#ah a:vist
+{
+ background:#A7D2CB;
 
+}
+#ah a:hover
+{
+ background:#A7D2CB;
+   
+}
+.img0 a:active
+{ position:relative;
+  font-size:20px;
+  font-family: 微軟正黑體;
+  color:#6495ED;
+  z-index: 2;
+  
+}
 .ipt input[type=text], input[type=password] {
   width: 100%;
   padding: 12px 20px;
@@ -559,6 +591,7 @@ padding-top:40px;}
     to{
         left:0%;
     }
+
     }
     @-webkit-keyframes hotmove { 
            from{
@@ -573,6 +606,20 @@ padding-top:40px;}
 #hot3{animation-delay:-4s;}
 
 
+}
+/*回頂部*/
+#gotop {
+    position: fixed;
+
+
+    right: 20px;
+    bottom: 40px;
+    padding: 10px 16px;
+    font-size: 25px;
+   
+    cursor: pointer;
+    z-index: 1000;
+}
 
 /*底部*/
 .footer{margin-top:100px;
