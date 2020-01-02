@@ -210,17 +210,17 @@
 				</div>
 				<div class="row m-0">
 					<div class="col-md-4 inbox01-s pt-1 pb-3" > 
-						<button class="me2" onclick="location.href=''" >
+						<button class="me2" onclick="location.href='japan.html'" >
 					  		<span>日本</span>
 						</button>
 					</div>
 					<div class="col-md-4 inbox01-s pt-1 pb-3" > 
-						<button class="me2" onclick="location.href=''" >
+						<button class="me2" onclick="location.href='korea.html'" >
 					  		<span>韓國</span>
 						</button>
 					</div>
 					<div class="col-md-4 inbox01-s pt-1 pb-3"> 
-						<button class="me2" onclick="location.href=''" >
+						<button class="me2" onclick="location.href='southeastasia.html'" >
 					  		<span>東南亞</span>
 						</button>
 					</div>
@@ -242,7 +242,7 @@
 		        </div>
 		</div>
 		<div class="row one" style="marginauto;justify-content:space-between;padding:0px 55px;">
-				<div class="card hotmove" id="hot1">
+				<div class="card card01" id="hot1">
 					<div class="cardcontainer">
 						<img src="images/001.png"  class="pt-0" style="width:21%;position: absolute; height:23%">
 					    <img src="images/pic5.jpg" alt="Denim Jeans" class="cardimage">
@@ -251,15 +251,15 @@
 							</div>
 						</div>
 					
-				    <h1>日清杯麵-海鮮口味</h1>
-				    <p class="price">NT120</p>
-				    <p class="word">清爽的湯頭，Q彈的麵條，讚!</p>
+				    <h1>農心-辛拉麵</h1>
+				    <p class="price">NT32</p>
+				    <p class="word">微辣滋味，暖口好吃!</p>
 				    </div>
 				    <button>點擊前往購買</button>
 					
 				</div>
 				
-				<div class="card hotmove" id="hot2">
+				<div class="card card02" id="hot2">
 					<div class="cardcontainer">
 						<img src="images/002.png"  class="pt-0" style="width:21%;position: absolute; height:23%">
 					    <img src="images/pic1.jpg" alt="Denim Jeans" class="cardimage">
@@ -268,24 +268,24 @@
 						</div>
 					
 				    <h1>日清杯麵-海鮮口味</h1>
-				    <p class="price">NT120</p>
+				    <p class="price">NT95</p>
 				    <p class="word">清爽的湯頭，Q彈的麵條，讚!</p>
 				    </div>
 				    <button>點擊前往購買</button>
 					
 				</div>
 
-				<div class="card hotmove" id="hot3">
+				<div class="card card03" id="hot3">
 					<div class="cardcontainer">
 						<img src="images/003.png"  class="pt-0" style="width:21%;position: absolute; height:23%">
-					    <img src="images/pic11.jpg" alt="Denim Jeans" class="cardimage" style="margin-left:45px;">
+					    <img src="images/pic3.jpg" alt="Denim Jeans" class="cardimage" style="margin-left:45px;">
 					    <div class="cardoverlay">
 							<div class="cardtext">銷售量持續上升!<br><span style=" font-size: 25px;">10萬人吃過都說讚</span></div>
 						</div>
 					
-				    <h1>日清杯麵-海鮮口味</h1>
-				    <p class="price">NT120</p>
-				    <p class="word">清爽的湯頭，Q彈的麵條，讚!</p>
+				    <h1>小雞泡麵</h1>
+				    <p class="price">NT40</p>
+				    <p class="word">雞汁湯頭湯鮮味美，溫暖人心!</p>
 				    </div>
 				    <button>點擊前往購買</button>
 			
@@ -307,30 +307,7 @@
   
 
  <script src="AA.js"></script>
- <script>
-        function getTop(clsName){ 
-            var obj = document.getElementsByClassName(clsName)[0];
-            return obj.getBoundingClientRect().top;
-        }
-
-        function getDom(clsName){
-            var obj=document.getElementsByClassName(clsName)[0];
-            return obj;
-        }
-
-
-
-        window.addEventListener('scroll',function(){
-            var scrollT=document.documentElement.scrollTop||document.body.scrollTop;
-
-            /*第二页动画的触发*/
-            if(getTop('one')<300){
-                getDom('card').classList.add('hotmove');
-                getDom('card').classList.add('hot');
-
-            }
-        })
-</script>
+ <script src="BB.js"></script>
 
  
  
