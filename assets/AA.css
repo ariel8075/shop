@@ -473,6 +473,7 @@ padding-top:40px;}
   margin: auto;
   text-align: center;
   font-family: arial;
+  position:absolute;
 }
 .price {
   color: grey;
@@ -548,21 +549,29 @@ padding-top:40px;}
   text-align: center;
   opacity: 1;
 }
-.hotmove{
-  animation-name:hot;
-    animation-duration:8s;
-}
-#hot1{animation-delay:-3s;}
-#hot2{animation-delay:-4s;}
-#hot3{animation-delay:-5s;}
-@keyframes hot{
-    from{
+.one{position:relative;}
+.hotmove { animation-duration:8s;-webkit-animation-duration:8s; -webkit-animation-fill-mode: both;animation-fill-mode: both;
+      animation-name:hotmove; -webkit-animation-name:hotmove;}
+    @keyframes hotmove { 
+           from{
         left:-100%;
     }
     to{
         left:0%;
     }
-}
+    }
+    @-webkit-keyframes hotmove { 
+           from{
+        left:-100%;
+    }
+    to{
+        left:0%;
+    }
+    }
+#hot1{animation-delay:-2s;}
+#hot2{animation-delay:-3s;}
+#hot3{animation-delay:-4s;}
+
 
 
 /*底部*/
