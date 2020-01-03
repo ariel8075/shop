@@ -462,7 +462,7 @@ background-color#F0E68C;
   height:300px;
   top:25px;
   width:70%;
-  margin:0px auto;
+  margin0px auto;
    background-color:white;
    padding:15px 80px 15px;}
 .outbox02
@@ -501,8 +501,8 @@ padding-top:40px;}
 /**/
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 260px;
-  margin: auto;
+  max-width: 280px;
+  
   text-align: center;
   font-family: arial;
   position:absolute;
@@ -511,8 +511,8 @@ padding-top:40px;}
   color: grey;
   font-size: 18px;
 }
-.card h1{font-size:23px;}
-.word{font-size:13px;}
+.card h1{font-size:25px;}
+.word{font-size:17px;}
 .card button {
   border: none;
   outline: 0;
