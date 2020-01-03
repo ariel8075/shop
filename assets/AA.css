@@ -106,6 +106,29 @@ form.example::after {
   clear: both;
   display: table;
 }
+.logout
+	{
+		position:absolute;
+		left:-80px;
+		color:white;
+		top:17px;
+		font:18px 微軟正黑體;
+	}
+.logout2
+	{
+		position:absolute;
+		left:25px;
+		top:16px;
+		font:20px 微軟正黑體;
+		width:40px;
+	}
+	#s
+	{  position:absolute;
+		max-width:190px; 
+		top:-2px;
+		float:right;
+		right:290px;
+	}
 
                                             /*側邊攔*/
 .sidenav {
