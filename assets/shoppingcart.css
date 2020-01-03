@@ -1,5 +1,9 @@
 input
-{font-family:微軟正黑體;}
+{font-family:微軟正黑體;
+background-color:#9CD3CB;
+color:white;
+border:none;
+ cursor: pointer;}
 .cart01title
 {
 	position:relative;
@@ -20,12 +24,17 @@ thead>tr>th {
     border-bottom-width: 2px;
 }
 .cart01table{width:90%;}
+.cart01table input{border-radius:5px;
+padding:5px 10px;
+font-weight: bold;}
 
 .cartnext{margin-top:40px;
 margin-left:60%;
 border-left:20px;}
  .cartnext input{margin-left:25px;
- cursor: pointer;}
+border-radius:5px;
+padding: 8px;
+font-weight: bold;}
 
 
 
@@ -91,7 +100,7 @@ cursor: pointer;}
 }					
 .cart03table{
 margin:0 auto;
-width:50%;
+width:60%;
 
 }									
 .cart03table input{border:none;}
