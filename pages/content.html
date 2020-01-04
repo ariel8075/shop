@@ -1,0 +1,232 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>商品資訊</title>
+   <!--內部連結-->
+  <link rel="stylesheet" type="text/css" href="assets/CSS/AA.css">
+    <link rel="stylesheet" type="text/css" href="assets/CSS/information.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!--外部連結-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="Shortcut Icon" type="image/x-icon" href="images/favicon-20200101051620220.ico" />
+
+       <script>
+     $(function(){
+    $("#gotop").click(function(){
+        jQuery("html,body").animate({
+            scrollTop:0
+        },1000);
+    });
+    $(window).scroll(function() {
+        if ( $(this).scrollTop() > 300){
+            $('#gotop').fadeIn("fast");
+        } else {
+            $('#gotop').stop().fadeOut("fast");
+        }
+    });
+});
+</script>
+</head>
+<body style="background:#FFFAFA;">
+<!--導航區-->
+  <div id="navbar">
+  <!--側邊導航--> 
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn " onclick="closeNav()">&times;</a>
+
+      <a href="index.html">首頁</a>
+
+      <button class="dropdown-btn">商品分類
+        <i class="fa fa-caret-down"></i>
+      </button>
+          <div class="dropdown-container">
+          <a href="product.html" style=" font-size:18px;">全部商品</a>
+          <a href="japan.html" style=" font-size:18px;">日本</a>
+          <a href="korea.html" style=" font-size:18px;">韓國</a>
+          <a href="southeastasia.html" style=" font-size:18px;">東南亞</a>
+        </div>
+        <a href="aboutus.html">關於我們</a>
+      <a href="vip.html">會員專區</a>
+      <a href="cart01.html">購物車</a>
+    </div>
+
+    <div style="font-size:25px;padding: 11px 20px;cursor:pointer; float:left;" onclick="openNav()">&#9776;</div>
+        <div class="img0" id="ah"><a href="index.html"><img src="images/pic16.jpg" height="60px"width="170px"></a></div>
+  <!--頂部導航--> 
+    <div class="a">
+      <div><a href="cart01.html" style="padding: 15px 10px;margin-left:10px;">
+         <i class="fa fa-shopping-cart" style="font-size:24px;colorblack;"></i>&nbsp; 購物車</a> 
+      </div> 
+    </div>
+
+    <div class="b">
+      
+      <a href="#" style="padding: 15px 10px;margin-left:10px;">
+      <span onclick="document.getElementById('id01').style.display='block'"><i class="fa fa-user-circle" style="font-size:24px;" onclick="document.getElementById('id01').style.display='block'"><span style="font:20px 微軟正黑體;">&nbsp; 登入</span></i></span>
+      </a>
+        <div id="id01" class="modal">
+            <form class="modal-content animate" style="width: 350px;"action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <div class="contant02" style="font-size:25px;">登入會員</div>
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>帳號</b></label>
+                <span class="ipt"><input type="text" placeholder="輸入帳號" name="uname" required ></span>
+                        
+                <label for="psw"><b>密碼</b></label>
+                  <span class="ipt"><input type="password" placeholder="輸入密碼" name="psw" required ></span>
+                
+                <span class="btn02"><button type="submit">登入</button></span>
+                <label>
+                  <span class="ipt"><input type="checkbox" checked="checked" name="remember" > 記住我</span>
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+              <button type="button"  onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">取消</button>
+            </div>
+          </form>
+        </div>  
+    </div>
+    
+    <div class="c" >
+        
+              <a href="#" style="padding: 15px 10px;margin-left:10px;">
+      <span onclick="document.getElementById('id02').style.display='block'"><span style="font:20px 微軟正黑體;"> 註冊</span></i></span>
+      </a>
+               
+        <div id="id02" class="modal2">
+            <form class="modal-content animate" style="width: 350px;"action="/action_page.php" method="post">
+            <div class="imgcontainer">
+                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <div class="contant02" style="font:25px 微軟正黑體;"> 註冊</div>
+            </div>
+
+            <div class="container" >
+                <label for="uname"><b class="hig1">帳號</b></label>
+                <span class="ipt2" ><input type="text" placeholder="輸入帳號" name="uname" required ></span>
+                        
+                <label for="psw"><b class="hig2">密碼</b></label>
+                  <span class="ipt2"><input type="password" placeholder="輸入密碼" name="psw" required ></span>
+
+                <label for="email"><b class="hig3">EMAIL</b></label>
+                  <span class="ipt2"><input type="e-mail" placeholder="輸入EMAIL" name="email" required ></span>
+
+                <label for="phone"><b class="hig4">手機</b></label>
+                  <span class="ipt2"><input type="text" placeholder="輸入手機" name="phone" required ></span>
+
+                  <label for="add"><b class="hig5">地址</b></label>
+                  <span class="ipt2"><input type="text" placeholder="輸入地址" name="add" required ></span>
+
+                <span class="btn02"><button type="submit">確認</button></span>
+                <label>
+                  
+            </div>
+                        <div class="container" style="background-color:#f1f1f1">
+                <button type="button"  onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">取消</button>
+               </div>
+           
+          </form>
+        </div>  
+            
+
+    </div>
+    <div class="d">
+      <form class="example" action="/action_page.php" style="float:left;max-width:190px; margin-left100px;padding: 12px 15px;">
+        <input type="text" placeholder="Search.." name="search2">
+          <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </div>
+</div>
+    <div class="container">
+<div class="title">
+商品評論
+ </div>
+ <div class="content">共4筆留言</div>
+  <p><span class="content2">日清拉麵-海鮮口味</span> 
+
+ <p><div class="container01">
+  <img src="images/pic13.jpg" alt="Avatar" style="width:90px">
+  <p><span>apple0332</span> 
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star"></span></p>
+  <p>安安安安安</p>
+  <p>2019/12/20</p>
+</div>
+
+<div class="container01">
+  <img src="images/pic13.jpg" alt="Avatar" style="width:90px">
+  <p><span >banana2039</span> 
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star "></span>
+  <span class="fa fa-star"></span></p>
+  <p>安安安安安</p>
+  <p>2019/12/20</p>
+</div>
+<div class="container01">
+  <img src="images/pic13.jpg" alt="Avatar" style="width:90px">
+  <p><span >banana2039</span> 
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star "></span>
+  <span class="fa fa-star"></span></p>
+  <p>安安安安安</p>
+  <p>2019/12/20</p>
+</div>
+
+<div class="container01">
+  <img src="images/pic13.jpg" alt="Avatar" style="width:90px">
+  <p><span >banana2039</span> 
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star "></span>
+  <span class="fa fa-star"></span></p>
+  <p>安安安安安</p>
+  <p>2019/12/20</p>
+</div>
+
+<div class="container01">
+  <img src="images/pic13.jpg" alt="Avatar" style="width:90px">
+  
+  <p><span >banana2039</span> 
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star checked"></span>
+  <span class="fa fa-star "></span>
+  <span class="fa fa-star"></span></p>
+  <p>安安安安安</p>
+  <p>2019/12/20</p>
+</div>
+<div class="btn4"><a href="information.html"><button>返回商品</button></a></div>
+</div>
+  <div id="gotop"><img src="images/pic34.jpg" width="40px" height="40px"></div>
+<!--頂部導航-->
+<div class="footer">
+   <div style="text-align:center;">Tel:(02)6666-1788</div>
+   <span style="position:relative;left:80px;">Mail:noodleisgood@gmail.com
+   © 2019 INTRAMEN All Rigts Reserved.</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+   <span style="position:relative;left:270px;">訪客人次 : 234352</span>
+   
+  </div>
+  <script src="AA.js"></script>
+  <script src="information.js"></script>
+</div>
+</div>
+</body>
+</html>
