@@ -2,7 +2,7 @@ input
 {font-family:微軟正黑體;
 
 color:white;
-border:none;
+
  cursor: pointer;}
 .cart01title
 {
@@ -24,10 +24,13 @@ thead>tr>th {
     border-bottom-width: 2px;
 }
 .cart01table{width:90%;}
-.cart01table input{border-radius:5px;
-padding:5px 10px;
-font-weight: bold;
-background-color:#9CD3CB;}
+.cart01table input{border-radius:4px;
+padding:3px 7px;
+font-weight:600;
+color:#9CD3CB;
+background-color:#FFFAFA;;
+border:#9CD3CB solid;
+}
 
 .cartnext{margin-top:40px;
 margin-left:60%;
