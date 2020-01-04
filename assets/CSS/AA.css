@@ -649,7 +649,9 @@ padding-top:40px;}
   width:100%;
   height:60px;
 background:#B8DBD5;
-text-aligncenter;
+text-align:center;
 }
+span.footer{padding-left:20px;
+            }
 
 
