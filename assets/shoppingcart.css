@@ -1,9 +1,6 @@
 input
 {font-family:微軟正黑體;
-
-color:white;
-
- cursor: pointer;}
+cursor: pointer;}
 .cart01title
 {
 	position:relative;
@@ -39,7 +36,8 @@ border-left:20px;}
 border-radius:5px;
 padding: 8px;
 font-weight: bold;
-background-color:#9CD3CB;}
+background-color:#9CD3CB;
+color:white;}
 
 
 
@@ -80,17 +78,17 @@ background-color:#9CD3CB;}
 	border:1px gray solid;
 	font-family:微軟正黑體;
 	background-color:#9CD3CB;
+	color:white;
 }
 .methodA input{margin-left:20px;
 	cursor: pointer;
+	color:white;
 	}
 
 select{font-size:14px;
 height:25px;}
 
 .methodB input{margin-left:20px;
-	line-height0px;
-height30px;
 cursor: pointer;}
 
 					/*購物車03確認訂單*/
@@ -108,10 +106,11 @@ margin:0 auto;
 width:60%;
 
 }									
-.cart03table input{border:none;}
+.cart03table input{border:none;
+color:white;}
 
 
-/* The Modal (background) */
+
 .endokk {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
