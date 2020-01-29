@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>商品|日本</title>
+	<title>確認訂單</title>
 	 <!--內部連結-->
-	<link rel="stylesheet" type="text/css" href="assets/AA.css">
-    <link rel="stylesheet" type="text/css" href="assets/product.css">
+	 <link rel="stylesheet" type="text/css" href="../assets/CSS/shoppingcart.css">
+	<link rel="stylesheet" type="text/css" href="../assets/CSS/AA.css">
+    
 	<!--外部連結-->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -13,26 +14,11 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	    <link rel="Shortcut Icon" type="image/x-icon" href="images/favicon-20200101051620220.ico" />
+	    <link rel="Shortcut Icon" type="image/x-icon" href="../assets/images/favicon-20200101051620220.ico" />
 
-	 <script>
-	   $(function(){
-    $("#gotop").click(function(){
-        jQuery("html,body").animate({
-            scrollTop:0
-        },1000);
-    });
-    $(window).scroll(function() {
-        if ( $(this).scrollTop() > 300){
-            $('#gotop').fadeIn("fast");
-        } else {
-            $('#gotop').stop().fadeOut("fast");
-        }
-    });
-});
-</script>
+
 </head>
-<body style="background:#FFFAFA;">
+<body>
 <!--導航區-->
 	<div id="navbar">
 	<!--側邊導航-->	
@@ -56,7 +42,7 @@
 		</div>
 
 		<div style="font-size:25px;padding: 11px 20px;cursor:pointer; float:left;" onclick="openNav()">&#9776;</div>
-        <div class="img0" id="ah"><a href="index.html"><img src="images/pic16.jpg" height="60px"width="170px"></a></div>
+       <div class="img0" id="ah"><a href="index.html"><img src="../assets/images/pic16.jpg" height="60px"width="170px"></a></div>
 	<!--頂部導航-->	
 		<div class="a">
 			<div><a href="cart01.html" style="padding: 15px 10px;margin-left:10px;">
@@ -149,123 +135,115 @@
 
 	</div>
 
-  
-	<div class="container">
-	<div class="content">
-	
 
-	<div class="vertical-menu">
-  <a href="product.html">全部商品</a>
-  <a href="japan.html" class="active">日本</a>
-  <a href="korea.html">韓國</a>
-  <a href="southeastasia.html">東南亞</a>
- </div>
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/pic25.jpg" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="images/pic24.jpg" class="d-block w-100">
-    </div>
-    <div class="carousel-item">
-      <img src="images/pic23.jpg"  class="d-block w-100">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+<!--購物車開始-->
+		<div class="container">
+		<div class="row">
+		<div class="col-md-12" >	
+			<div class="cart03title">
+				確認訂單
+			</div>
+			<table class="cart03table">
+				<thead>
+					<tr style="background-color:#B3DAD4; color:white;">
+						<th>商 品 品 項</th>
+						<th>單 價</th>
+						<th>數 量</th>
+						<th>總 計</th>
+						
+					</tr>
+				</thead>	
+				<tbody>
+			        <tr>
+				        <td>小雞泡麵</td>
+				        <td>NT $40</td>
+				        <td>3 個</td>
+				        <td>NT $120</td>
+				        
+			        </tr>
+			        <tr>
+				        <td>Indo mine-印尼炒麵</td>
+				        <td>NT $12</td>
+				        <td>5 個</td>
+				        <td>NT $60</td>
+				        
+			        </tr>
+			        <tr>
+				        <td>農心-安城湯麵(4入)</td>
+				        <td>NT $135</td>
+				        <td>1 個</td>
+				        <td>NT $135</td>
+				        
+			        </tr>
+			        <tr>
+			        	<td style="border:none;"> </td>
+			        	<td style="border:none;"> </td>
+			        	<td style="border:none;"> </td>
+				        <td style="border:none;">全部金額 : <span style="padding-left:10%;color:red;"> $ 315</span></td>
+				        
+				        
+			        </tr>
+			        	        
+			    </tbody>	
+			</table>
 
-					
-<div class="title">全部商品&ensp;/ &ensp;日本</div>
+			<table class="cart03table mt-3" style="border:0px;"> 
+			 	<thead>
+					<tr>
+						<th  colspan="4" style="background-color:#B3DAD4; color:white;">買 家 資 訊</th>		
+					</tr>
+				</thead>	
+				<tbody>
+					<tr>
+				        <td colspan="2">姓名 : 大美女</td>
+				         <td colspan="2">手機號碼: 0966-666-178</td>
+			        </tr>
+			   
+			        
+			        <tr>
+				        <td colspan="4" >運送方式 : 7-11 </td>
+			        </tr>
+			        <tr>
+				        <td colspan="4" >付款方式 : 貨到付款 </td>
+			        </tr>
+				</tbody>	
+			</table>
 
-    <div class="container">
-    <div class="row">
-     <div class="product01">
-      <div class="card01">
-        <a href="information.html"><img src="images/pic1.jpg"  style="width:70%" ></a>
-        
-      </div>
-      <div class="card02">
-      <h5 style="font-weight:bold;">日清杯麵-海鮮口味</h5>
-        <p class="price">NT.95</p>
-        <p><button>加入購物車</button></p>
-    </div>
-</div>
+			
 
-<div class="product01">
-      <div class="card01">
-       <a href="information.html"> <img src="images/pic2.jpg"  style="width:70%"></a>
-    </div>
-        <div class="card02">
-      <h5 style="font-weight:bold;">日清杯麵-醬油口味</h5>
-        <p class="price">NT.95</p>
-        <p><button>加入購物車</button></p>
-    </div>
-</div>
-<div class="product01">
-      <div class="card01">
-       <a href="information.html"> <img src="images/pic3.jpg"  style="width:70%"></a>
-    </div>
-        <div class="card02">
-      <h5 style="font-weight:bold;">小雞泡麵</h5>
-        <p class="price">NT.40</p>
-        <p><button>加入購物車</button></p>
-    </div>
-</div>
+			<div class="cartnext">
+				<input type="button" value="回去改" onclick="location.href='cart02.html'">
+				
+				<input type="button" value="送出" id="gohome" ></input>
+					<div id="endok" class="endokk">
+					  <div class="endokk-content">
+					    <span class="endclose pt-2">&times;</span>
+					    <br><p>成功結帳，訂單已送出!</p> 感謝您的支持!
+					  </div>
 
-<div class="container">
-<div class="row">
-<div class="product01">
-      <div class="card01">
-        <a href="information.html"><img src="images/pic4.jpg"  style="width:70%"></a>
-    </div>
-        <div class="card02">
-      <h5 style="font-weight:bold;">咚兵衛油豆腐烏龍麵</h5>
-        <p class="price">NT.80</p>
-        <p><button>加入購物車</button></p>
-    </div>
-  </div>
- </div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<script>
-  // Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}</script>
+					</div>
+			</div>
 
+		</div>
+		</div>
+		</div>
 
-<div id="gotop"><img src="images/pic34.jpg" width="40px" height="40px"></div>
-<!--頂部導航-->
-<div class="footer">
+		
+
+<!--頁尾-->
+   <div class="footer">
    <div style="text-align:center;">Tel:(02)6666-1788</div>
    <span style="position:relative;left:80px;">Mail:noodleisgood@gmail.com
    © 2019 INTRAMEN All Rigts Reserved.</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+
    <span style="position:relative;left:270px;">訪客人次 : 234352</span>
+
+   <span style="position:relative;float:right; right:10px;">訪客人次 : 234352</span>
+
    
   </div>
-  <script src="AA.js"></script>
-</div>
+ <script src="../assets/JS/AA.js"></script>
+ <script src="../assets/JS/cart03.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,114 @@
+.title
+{
+	position:relative;
+  
+  font-family: 微軟正黑體;
+  font-size: 30px;
+  font-weight:bold;
+ top:100px;
+ left:180px;
+ width:120px;
+}
+.content
+{
+  position:relative;
+  font-family: 微軟正黑體;
+  font-size: 20px;
+  font-weight:bold;
+  top:65px;
+  left:330px;
+  width:120px;
+}
+.content2
+{
+  position:relative;
+  font-family: 微軟正黑體;
+  font-size: 20px;
+  font-weight:bold;
+  top:90px;
+  left:180px;
+  width:120px;
+}
+.btn4 button
+{
+ 
+ position:relative;
+ top:110px;
+ left:180px;
+
+ background:#FA8072;
+ color:white;
+ font-family:微軟正黑體;
+ border:none;
+ padding-left:15px;
+ padding-right:15px;
+ padding-top:10px;
+ padding-bottom:10px;
+ border-radius:10px;
+ font-weight:bold;
+
+}
+.btn4:hover
+{
+	opacity:0.9;
+}
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container01 {
+  border: 2px solid #FDC5BF;
+  background-color:#FDC5BF;
+  border-radius: 10px;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 6px;
+  margin-top:40px;
+  font-family: 微軟正黑體;
+  width:700px;
+  position:relative;
+  left:180px;
+  top:70px;
+}
+
+/* Clear floats after containers */
+.container01::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+.container01 img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Increase the font-size of a span element */
+.container01 span {
+  font-size: 20px;
+  margin-right: 15px;
+
+}
+@media (max-width: 500px) {
+  .container01 {
+    text-align: center;
+  }
+
+  .container01 img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
+}
+.checked {
+  color: orange;
+}
+.footer{width:100%;
+  height:60px;
+background:#B8DBD5;
+text-align:center;
+position:relative;
+top:400px;
+}
+span.footer{padding-left:20px;
+            }

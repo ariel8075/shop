@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>會員專區|訂單查詢</title>
+	<title>結帳</title>
 	 <!--內部連結-->
-	<link rel="stylesheet" type="text/css" href="assets/AA.css">
-    <link rel="stylesheet" type="text/css" href="assets/order.css">
+	 <link rel="stylesheet" type="text/css" href="../assets/CSS/shoppingcart.css">
+	<link rel="stylesheet" type="text/css" href="../assets/CSS/AA.css">
+    
 	<!--外部連結-->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -13,11 +14,11 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	    <link rel="Shortcut Icon" type="image/x-icon" href="images/favicon-20200101051620220.ico" />
+	    <link rel="Shortcut Icon" type="image/x-icon" href="../assets/images/favicon-20200101051620220.ico" />
 
-	     
+
 </head>
-<body style="background:#FFFAFA;">
+<body>
 <!--導航區-->
 	<div id="navbar">
 	<!--側邊導航-->	
@@ -41,7 +42,7 @@
 		</div>
 
 		<div style="font-size:25px;padding: 11px 20px;cursor:pointer; float:left;" onclick="openNav()">&#9776;</div>
-        <div class="img0" id="ah"><a href="index.html"><img src="images/pic16.jpg" height="60px"width="170px"></a></div>
+        <div class="img0" id="ah"><a href="index.html"><img src="../assets/images/pic16.jpg" height="60px"width="170px"></a></div>
 	<!--頂部導航-->	
 		<div class="a">
 			<div><a href="cart01.html" style="padding: 15px 10px;margin-left:10px;">
@@ -133,61 +134,123 @@
 		
 
 	</div>
-<div class="container">
-	<div class="content">
-		會員專區<hr>
 
-	<div class="vertical-menu">
-  <a href="vip.html" >會員基本資料</a>
-  <a href="order.html" class="active">訂單查詢</a>
- </div>
+<!--訂單人資訊-->
+		
 
-<div class="box">
-<div class="title">訂單查詢</div>
+		<div class="container mb-5">
+		<div class="row">
+		<div class="col-md-12">
+				
+			<div class="carttitle02">
+				訂單資訊
+			</div>
+			<hr style="background-color:#ddd; height 1px; width:65%;">
+			<form class="needs-validation form-inline" novalidate name="payman" action="cart03.html">
+				
+					<div class="form-inline cart02">
+				      <label for="Custom01">姓 &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp名： </label>
+				      <input type="text" class="form-control" id="Custom01" valueMark name="username" required>
+				      <div class="invalid-feedback pl-3" style="width:50%">
+				        請填入姓名!
+				      </div>
+		    		</div>
+		    	
 
-<div class="content02">
-	<table>
-<tr style="border-bottom:1px solid gray;">
-	<td>訂單號碼	</td>
-	<td>訂單日期</td>	
-	<td>合計</td>
-	<td>訂單狀態</td>
-</tr>
-<tr>
-	<td>2019121904433652</td>
-	<td>2019/12/19</td>	
-	<td>NT$95</td>
-	<td>已完成</td>
-</tr>
-	<td>2019122004435562</td>
-	<td>2019/12/20</td>	
-	<td>NT$175</td>
-	<td>已完成</td>
-</tr>
-<tr>
-	<td>2019122204433362</td>
-	<td>2019/12/22</td>	
-	<td>NT$215</td>
-	<td>已完成</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-</div>
+		  
+				    <div class="form-inline cart02">
+				      <label for="Custom02">手機號碼： </label>
+				      <input type="text" class="form-control" id="Custom02" name="username" required>
+				      <div class="invalid-feedback pl-3" style="width:50%">
+				        請填正確手機號碼!
+				      </div>
+				    </div>
+				
+						
+					
+					<fieldset class="form-group1 cart02-2" >
+					    運送方式：
+					    <div class="custom-control custom-radio custom-control-inline">
+						   <input type="radio" id="sendto01" name="sendto" class="custom-control-input" required>
+						   <label class="custom-control-label" for="sendto01">7-11</label>
+						</div>
+						<div class="custom-control custom-radio custom-control-inline">
+						   <input type="radio" id="sendto02" name="sendto" class="custom-control-input" required>
+						   <label class="custom-control-label" for="sendto02">全家</label>
+						</div>
+						<div class="custom-control custom-radio custom-control-inline">
+						   <input type="radio" id="sendto03" name="sendto" class="custom-control-input" required>
+						   <label class="custom-control-label" for="sendto03">宅配</label>
+						</div>					      
+					</fieldset>
+
+					<fieldset class="form-group2 cart02-2">
+					    付款方式：
+					    <div class="custom-control custom-radio custom-control-inline">
+						    <input type="radio" id="payway01" name="payway" class="custom-control-input" required>
+						    <label class="custom-control-label" for="payway01">貨到付款</label>
+						</div>
+						<div class="custom-control custom-radio custom-control-inline">
+					    	<input type="radio" id="payway02" name="payway" class="custom-control-input" required>
+					    	<label class="custom-control-label" for="payway02">銀行轉帳</label>
+						</div>
+					      
+					 </fieldset>
+									
+				<hr style="background-color:#ddd; height:0.5px; width:65%;">
+				
+				<div class="cartnext">
+					<input type="submit" value="回購物車" onclick="location.href='cart01.html'">
+					<input type="submit" value="結帳Go">
+				</div>
+			</form>		
+
+		
+			
+
+		</div>
+		</div>
+		</div>	
+
+	
 
 
-<!--頂部導航-->
 
-		<div class="footer">
+
+
+
+
+
+<!--頁尾-->
+<div class="footer">
    <div style="text-align:center;">Tel:(02)6666-1788</div>
    <span style="position:relative;left:80px;">Mail:noodleisgood@gmail.com
    © 2019 INTRAMEN All Rigts Reserved.</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-   <span style="position:relative;left:270px;">訪客人次 : 234352</span>
+   <span style="position:relative;float:right; right:10px;">訪客人次 : 234352</span>
    
   </div>
+<script src="../assets/JS/AA.js"></script>
+ <script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
 
 
- <script src="AA.js"></script>
+      }, false);
+    });
+  }, false);
+})();
+</script>
 </body>
 </html>
